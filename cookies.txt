@@ -1,0 +1,15 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+cdn.oreillystatic.com	TRUE	/	FALSE	1999999999	akaalb_OREILLY_STATIC_LB	~op=cdn_oreillystatic_com_ALB_90_SEB:dc1_sebastopol|~rv=86~m=dc1_sebastopol:0|~os=275589a3927054d2852d0fc1acfec7a0~id=9a5cda5c99943087a47e3b18f72bcafb
+cdn.oreillystatic.com	TRUE	/	FALSE	1999999999	SameSite	None
+www.oreilly.com	TRUE	/	FALSE	1999999999	akaalb_OReillyALB	~op=oreilly_com_gce_microsites:lb2_oreilly_com_gce_microsites|www_oreilly_com_ALB_90_SEB:dc1_sebastopol|~rv=22~m=lb2_oreilly_com_gce_microsites:0|dc1_sebastopol:0|~os=ea59de9527866dfb0dcb25ebf250c4a3~id=1b80fd0c56a34bbeb3e75b87ae1cfd7b
+.get.oreilly.com	TRUE	/	FALSE	1999999999	__cf_bm	ZR5cm_nwmtTlEwvzmyUPitN.CBo00lfzO9VgeSKtygA-1664822603-0-AZdcq/4KpP8tCaceRy/lrMox/OPyFtdErxo2RFerRPGOrQHobRnLymdJoT8K+rWC72c0zdMX2gKJTGNbiNIPXZ4=
+get.oreilly.com	TRUE	/	FALSE	1999999999	SameSite	None
+learning.oreilly.com	TRUE	/	FALSE	1999999999	akaalb_LearningALB	~op=learning_oreilly_com_GCP_ALB:learning_oreilly_com_gcp1|~rv=49~m=learning_oreilly_com_gcp1:0|~os=3284f997983d0bd4e10a6b83f3b25a7c~id=5524b1d2a8c3905410e7b8eb9738ce63
+learning.oreilly.com	TRUE	/	FALSE	1999999999	SameSite	None
+www.oreilly.com	TRUE	/	FALSE	1999999999	csrftoken	iG0VNxZEztzzult6EYjWYZsMmCn4pP0I6XOCvE97HXQPVG8fc44HgxDORUx4tcCc
+www.oreilly.com	TRUE	/	FALSE	1999999999	akaalb_LearningALB	~op=learning_oreilly_com_GCP_ALB:learning_oreilly_com_gcp1|~rv=64~m=learning_oreilly_com_gcp1:0|~os=3284f997983d0bd4e10a6b83f3b25a7c~id=43f4fe1d2bace8ca319177000a644af3
+www.oreilly.com	TRUE	/	FALSE	1999999999	SameSite	None
+commons.wikimedia.org	TRUE	/	FALSE	1999999999	WMF-Last-Access	03-Oct-2022
+.wikimedia.org	TRUE	/	FALSE	1999999999	GeoIP	IN:UP:Ghaziabad:28.66:77.45:v4
+

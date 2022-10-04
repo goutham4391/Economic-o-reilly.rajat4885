@@ -1,0 +1,1388 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+
+	>
+
+<channel>
+	<title>Next Architecture &#8211; Radar</title>
+	<atom:link href="https://www.oreilly.com/radar/topics/next-architecture/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.oreilly.com/radar</link>
+	<description>Now, next, and beyond: Tracking need-to-know trends at the intersection of business and technology</description>
+	<lastBuildDate>Thu, 23 Dec 2021 18:28:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.13</generator>
+	<item>
+		<title>Microservices Adoption in 2020</title>
+		<link>https://www.oreilly.com/radar/microservices-adoption-in-2020/</link>
+				<comments>https://www.oreilly.com/radar/microservices-adoption-in-2020/#respond</comments>
+				<pubDate>Wed, 15 Jul 2020 13:33:44 +0000</pubDate>
+		<dc:creator><![CDATA[Mike Loukides and Steve Swoyer]]></dc:creator>
+				<category><![CDATA[Next Architecture]]></category>
+		<category><![CDATA[Research]]></category>
+
+		<guid isPermaLink="false">https://www.oreilly.com/radar/?p=13077</guid>
+				<description><![CDATA[Microservices&#160;seem to be everywhere. Scratch that:&#160;talk&#160;about microservices seems to be everywhere. And that’s the problem. Thinkers as dissimilar as&#160;Plato,&#160;Robert Boyle, and&#160;Keith Richards&#160;tend to agree about one thing: Talk is cheap. So we wanted to determine to what extent, and how, O’Reilly subscribers are empirically&#160;using&#160;microservices. In other words, how long have people been using them? What [&#8230;]]]></description>
+								<content:encoded><![CDATA[
+<p><a href="http://shop.oreilly.com/product/0636920033158.do">Microservices</a>&nbsp;seem to be everywhere. Scratch that:&nbsp;<em>talk</em>&nbsp;about microservices seems to be everywhere.</p>
+
+
+
+<p>And that’s the problem. Thinkers as dissimilar as<a href="https://ndpr.nd.edu/news/plato-on-the-rhetoric-of-philosophers-and-sophists/">&nbsp;Plato</a>,<a href="https://web.stanford.edu/class/history34q/readings/ShapinSchaffer/ShapinSchaffer_Seeing.html">&nbsp;Robert Boyle</a>, and<a href="https://en.wikipedia.org/wiki/Talk_Is_Cheap">&nbsp;Keith Richards</a>&nbsp;tend to agree about one thing: Talk is cheap. So we wanted to determine to what extent, and how, O’Reilly subscribers are empirically&nbsp;<em>using</em>&nbsp;microservices. In other words, how long have people been using them? What are they using them for? Are they having success? If so, what kinds of benefits are they seeing? What can we learn from their failures?</p>
+
+
+
+<p>So we did what we usually do: we ran a survey. The survey ran from January 31, 2020 through February 29; we had 1502 respondents from the readers of our mailing lists. Here’s a summary of our key findings:</p>
+
+
+
+<p><em>Most adopters are successful with microservices.</em></p>
+
+
+
+<blockquote class="wp-block-quote"><p>A minority (under 10%) reports “complete success,” but a clear majority (54%) describes their use as at least “mostly successful” and 92% of the respondents had at least some success.</p></blockquote>
+
+
+
+<p><em>Microservices practices are surprisingly mature</em></p>
+
+
+
+<blockquote class="wp-block-quote"><p> About 28% of respondents say their organizations have been using microservices for at least three years; more than three-fifths (61%) of the respondents have been using microservices for a year or more.</p></blockquote>
+
+
+
+<p><em>Adopters are betting big on microservices</em></p>
+
+
+
+<blockquote class="wp-block-quote"><p> Almost one-third (29%) of respondents say their employers are migrating or implementing a majority of their systems (over 50%) using microservices.</p></blockquote>
+
+
+
+<p><em>Success with microservices means owning the software lifecycle</em></p>
+
+
+
+<blockquote class="wp-block-quote"><p>Most (74%) respondents say their teams own the build-test-deploy-maintain phases of the software lifecycle. Teams that own the lifecycle succeed at a rate 18% higher than those that don’t.</p></blockquote>
+
+
+
+<p><em>Success with containers</em></p>
+
+
+
+<blockquote class="wp-block-quote"><p>Respondents who used containers to deploy microservices were significantly more likely to report success than those who didn’t. For our audience, use of containers is one of the strongest predictors of success with microservices.</p></blockquote>
+
+
+
+<p><em>It’s the culture</em></p>
+
+
+
+<blockquote class="wp-block-quote"><p>A plurality of adopters cite cultural or mindset barriers to adoption. Decomposing monolithic applications into microservices is also a major challenge, but complexity may be the biggest challenge of all.</p></blockquote>
+
+
+
+<h2><strong>Respondent Demographics</strong></h2>
+
+
+
+<p><em>Technical roles dominate, but management roles are represented, too.&nbsp;</em>Software engineers comprise the survey audience’s single largest cluster, over one quarter (27%) of respondents (Figure 1). If you combine the different architectural roles—i.e., software and systems architects, technical leads—architects represent almost 28% of the sample. Adding architects and engineers, we see that roughly 55% of the respondents are directly involved in software development. Respondents in management roles constitute close to 23% of the audience; executive-level positions (vice presidents and CxOs) account for roughly 13%, overall.</p>
+
+
+
+<p>That said, the audience for this survey—like those of almost all Radar surveys—is disproportionately technical. Technical roles represented in the “Other” category include IT managers, data engineers, DevOps practitioners, data scientists, systems engineers, and systems administrators. Each of these roles comprised less than 3% of all respondents.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/07/ma20_01-1-1048x699.png" alt="" class="wp-image-13104" srcset="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/07/ma20_01-1-1048x699.png 1048w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/07/ma20_01-1-300x200.png 300w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/07/ma20_01-1-768x512.png 768w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/07/ma20_01-1.png 1088w" sizes="(max-width: 1048px) 100vw, 1048px" /><figcaption><em>Figure 1: Respondent roles</em></figcaption></figure>
+
+
+
+<p><em>Respondents work in more than 25 different vertical industries</em>.The single largest cluster consists of respondents (26%) from the software industry. Combined, technology verticals—software, computers/hardware, and telecommunications—account for about 35% of the audience (Figure 2).</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/07/ma20_02-1-1048x825.png" alt="" class="wp-image-13103" srcset="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/07/ma20_02-1-1048x825.png 1048w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/07/ma20_02-1-300x236.png 300w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/07/ma20_02-1-768x605.png 768w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/07/ma20_02-1.png 1054w" sizes="(max-width: 1048px) 100vw, 1048px" /><figcaption><em>Figure 2: Respondent industries</em></figcaption></figure>
+
+
+
+<p>The second-largest cluster (exclusive of “Other”) was finance, at close to 12%, followed by consulting/professional services, at roughly 10%. The “Other” category, at more than 22% of the total, includes respondents from education (3%, combining K12 and higher education), insurance (3%), energy and utilities (2%), media/entertainment (2%), non-profit (2%), consumer products (1%) and other verticals.</p>
+
+
+
+<p><em>Microservices aren’t just for the big guys</em>. Large companies are amply represented, and respondents affiliated with organizations of 1,000 or more employees comprise 42% of the audience. Overall, however, small- and medium-sized organizations predominate. The largest single cluster (33% of all respondents) was organizations with under 100 employees.</p>
+
+
+
+<p><em>A good global mix</em>. We’re used to seeing a North American-centric tilt in our Radar surveys. This is true, too, of the audience for this survey, nearly half of which (over 49%) works in North America. Europe—inclusive of the United Kingdom—was the next largest region, comprising almost 26% of all respondents. Asia-Pacific accounts for roughly 15% of respondents. In total, just over half of the audience hails from outside of North America. This roughly mirrors usage on the O’Reilly learning platform.</p>
+
+
+
+<h2><strong>Microservices Adoption: Explication and Analysis</strong></h2>
+
+
+
+<p>Slightly more than one-third of respondents say their organizations have been using microservices for between 1 and 3 years (Figure 3). This is the single largest cluster in our sample. The second-largest cluster, at nearly one-quarter (over 23%) of respondent organizations, does not use microservices at all. Mature adopters, companies that first adopted microservices between 3 and 5 years ago, comprise the third-largest cluster, at 18%. If you factor in the respondents whose organizations first adopted microservices over 5 years ago, this means that more than 28% of respondent organizations have been using microservices for at least three years. A little under one-sixth of companies (15%) are just beginning microservice adoption, however; they’ve been using microservices for less than 1 year.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/07/ma20_03-1.png" alt="" class="wp-image-13105" srcset="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/07/ma20_03-1.png 994w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/07/ma20_03-1-300x169.png 300w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/07/ma20_03-1-768x433.png 768w" sizes="(max-width: 994px) 100vw, 994px" /><figcaption><em>Figure 3: Duration of use of microservices</em></figcaption></figure>
+
+
+
+<p>The pace of adoption, in which a clear majority (61%) of respondents say their organizations have used microservices for between 1 and 5 years, roughly tracks with empirical trends we’ve observed internally (e.g., with respect to keyword search and topic usage activity on the O’Reilly online learning platform) and&nbsp;<a href="https://trends.google.com/trends/explore?date=today%205-y&amp;geo=US&amp;q=%2Fm%2F011spz0k">in other contexts</a>. The share of adoption for the 12-month period between January of 2019 and January of 2020 likewise suggests that microservices remains a topic of interest to O’Reilly users. On the other hand, there’s evidence from other quarters that interest in microservices—<a href="https://trends.google.com/trends/explore?date=2019-01-31%202020-01-31&amp;geo=US&amp;q=%2Fm%2F011spz0k">both as a topic</a>&nbsp;and as a general&nbsp;<a href="https://trends.google.com/trends/explore?date=2019-01-31%202020-01-31&amp;geo=US&amp;q=Microservices">search term</a>—has flattened (and perhaps even cooled) over the 12 months.</p>
+
+
+
+<p>So not only are most respondents using microservices, but three-fifths (61%) have been using them for a year or more. But do they describe their experience as successful? What share of the systems they’re deploying or maintaining are built to microservices architecture? What characteristics do successful adopters share? What can we learn from those who say they’ve failed with microservices?</p>
+
+
+
+<h2><strong>Critical Factors for Success</strong></h2>
+
+
+
+<p>A majority of respondents (55%) say their organization’s use of microservices has been either a “complete success” (close to 9%) or “mostly successful” (Figure 4).</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/07/ma20_04-1.png" alt="" class="wp-image-13106" srcset="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/07/ma20_04-1.png 973w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/07/ma20_04-1-300x189.png 300w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/07/ma20_04-1-768x483.png 768w" sizes="(max-width: 973px) 100vw, 973px" /><figcaption><em>Figure 4: Success with microservices</em></figcaption></figure>
+
+
+
+<p>More than one-third (37%) say they’ve had “some success” with microservices. Approximately 8% say they haven’t been successful at all. However, relationships in the data hint at several critical factors for success. For example, in organizations in which development teams own the entire development cycle (i.e., building, testing, deployment, and maintenance), close to half (almost 49%) also reported being “mostly successful” with microservices—and more than 10% said their microservices development efforts were a “complete success. (Figure 5). The combined tally (close to 59%) is about 18% higher than the baseline tally for the survey audience as a whole.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/07/ma20_05-1.png" alt="" class="wp-image-13107" srcset="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/07/ma20_05-1.png 837w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/07/ma20_05-1-300x163.png 300w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/07/ma20_05-1-768x417.png 768w" sizes="(max-width: 837px) 100vw, 837px" /><figcaption><em>Figure 5: Do dev teams own/not own the software lifecycle?</em></figcaption></figure>
+
+
+
+<p>Do we see meaningful connections between success with microservices and the use, or disuse, of specific technologies? Perhaps; we’ll take a look at that next, specifically with respect to containers, centrally managed databases, and monolithic UIs. The semantics get a bit twisted, but the connections we identify seem more strongly associated with “disuse” than with “use.”</p>
+
+
+
+<p>We emphasize the qualifier “seem” because—with respect to the problem of identifying factors for success—we lack detailed data to draw rigorous conclusions. We kept our survey simple; our priority was to develop a general sense of how, why, and in which scenarios people are using microservices. For the most part, our questions didn’t drill down into specifics. We emphasize “seem” for another reason, too. When we asked respondents to cite the biggest challenges to microservices adoption, two problems—<a href="https://en.wikipedia.org/wiki/Decomposition_(computer_science)">decomposition</a>&nbsp;and complexity—stood out for us. Decomposition because it came in at #2, trailing only corporate culture / mindset, which (in almost all Radar surveys) is #1; complexity because two ostensibly different kinds of complexity—“increased complexity” (#4) and the “complexity of managing many services” (#5)—cracked the top 5. Add them together and respondents view complexity in one form or another as the biggest challenge.</p>
+
+
+
+<p>The upshot is that complexity in general and (more specifically) the complexity associated with decomposition are the shoals in which most microservices projects seem to run aground. That’s hard to argue with; complexity is rarely (if ever) associated with success. But it’s easy to pretend that complexity is the enemy when it’s really only one variable in a set of tradeoffs.</p>
+
+
+
+<p>What does that mean? Although it’s not a question we asked, anecdotally we hear that most microservices projects are replacing large, legacy, monolithic software systems. Those monoliths are themselves very complex, having evolved over decades. The complexity of the monolith that’s being replaced is a “sunk cost” that has only partially been paid; it continues to extract a toll as that software is extended to support new features, changing business models, changing modes of user interaction, and more. Microservices may require paying a complexity cost again, but that’s where the tradeoff comes in: in return for the complexity of re-engineering the system, you get increased flexibility, including a simpler path to adding new features, simpler management, simplified scaling as the organization grows.</p>
+
+
+
+<h3>Use of Containers for Microservice Deployment</h3>
+
+
+
+<p>We asked respondents what proportion of their microservices they deploy using containers.</p>
+
+
+
+<p>The largest single cluster (38%) for this question consists of respondents that do not deploy their microservices in containers. One might reasonably expect that containers would be the most common means of instantiating microservices. This just isn’t the case, however. Our findings indicate that, for our survey audience as a whole, most respondents (58%) deploy microservices using some medium other than containers (Figure 6).</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/07/ma20_06-1.png" alt="" class="wp-image-13108" srcset="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/07/ma20_06-1.png 903w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/07/ma20_06-1-300x176.png 300w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/07/ma20_06-1-768x451.png 768w" sizes="(max-width: 903px) 100vw, 903px" /><figcaption><em>Figure 6: Proportion of microservices deployed using containers</em></figcaption></figure>
+
+
+
+<p>There are valid reasons not to use containers. For some adopters, technical debt (in the form of custom-built, proprietary and monolithic systems, applications, or architectures) is a constraining factor. So it just makes sense to instantiate microservices at the level of the&nbsp;<a href="https://en.wikipedia.org/wiki/Hardware_virtualization">virtual machine</a>&nbsp;(VM), as distinct to that of the container. Or maybe it’s faster and less costly, at least in the short term, to build and instantiate microservices as non-virtualized code running in the context of a conventional operating system, a database, application server, etc..</p>
+
+
+
+<p>This doesn’t mean respondents aren’t using containers; most of the survey audience is. It’s just that containers are not yet the most popular means of instantiating microservices, although that could be changing. For example, the second-largest cluster (31%) for this question consists of organizations that deploy between 75% and 100% of their microservices using containers. And 11% use containers to deploy between 50 and 75% of their microservices.</p>
+
+
+
+<p>The upshot is that more than two-fifths (42%) of respondent organizations use containers to deploy at least half of their microservices—and that, for the survey audience as a whole, nearly two-thirds (62%) are using containers to deploy at least&nbsp;<em>some</em>&nbsp;of their microservices. So we have a split: on the one hand, most microservices are instantiated using a technique other than containers; on the other hand, most organizations that use microservices also instantiate at least some of them in containersFor example, 10% of respondents say they use containers to deploy between 10-25% of their microservices; a little more than 9% deploy between 25-50% of microservices with containers; and, again, 11% deploy between 50-75% using containers.<sup>1</sup> It seems adopters either go (mostly) all-in on containers, using them for most microservices, or use them sparingly.</p>
+
+
+
+<p>There’s a critical, and intriguing, “but” here: a higher than average proportion of respondents who report success with microservices opt to instantiate them using containers; conversely, a much higher proportion of respondents who describe their microservices efforts as “Not successful at all”&nbsp;<em>do not</em>&nbsp;instantiate them in containers. For example, almost half (49%) of respondents who describe their deployments as “a complete success” also instantiate most of their microservices (75-100%) in containers. This is more than 5x the baseline (9%) for this question. Conversely, an overwhelming majority (83%) of respondents who describe their microservices efforts as “Not successful at all” are instantiating them by some means other than containers. (These are respondents who use containers in conjunction with less than 10% of their microservices.) This is about 11x the baseline for this question (Figure 4).</p>
+
+
+
+<p>This observation makes intuitive sense. With microservices, instead of deploying one monolithic application, you may need to deploy and manage hundreds or thousands of services. Using containers to standardize deployment, and container orchestration tools to automate ongoing management, greatly simplifies the burden of deployment and management. It’s worth remembering that “containers” get their name by analogy to shipping containers: instead of loading a ship with 10,000 cases of canned soup, 20,000 board-feet of lumber, and a few thousand automobile tires, the shippers would pack their goods in standardized containers that could be stacked up on the ship. This represents a significant reduction in the cost of shipping–or the operational cost of deploying and maintaining software. Containers are a simplifying technology.</p>
+
+
+
+<h3>Use of a Central, Managed Database</h3>
+
+
+
+<p>When we asked respondents what proportion of their microservices share a central, managed database (Figure 7), we found that not using a centrally managed database with microservices tends to be associated with failure. That said, the question itself (i.e., “What percentage of your microservices share a centrally-managed database?”) doesn’t give us much to go on. We don’t know what respondents considered a centrally managed database; what kind of database they were using (relational or non-relational); or whether transactional integrity was an issue.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/07/ma20_07-1.png" alt="" class="wp-image-13109" srcset="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/07/ma20_07-1.png 901w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/07/ma20_07-1-300x180.png 300w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/07/ma20_07-1-768x462.png 768w" sizes="(max-width: 901px) 100vw, 901px" /><figcaption><em>Figure 7: Proportion of microservices that use a centrally managed database</em></figcaption></figure>
+
+
+
+<p>Granted that there’s a lot we’d like to know that we don’t, let’s think about why this question is important, and dig a bit deeper. The point of microservices is breaking an application into separate, decoupled services. Using the database as the integration point between services is counter to this purpose. The result is a software system that looks like it’s built from microservices, but really isn’t, and which realizes few of the promised advantages because the individual services are still coupled to each other at the database layer.</p>
+
+
+
+<p>Are our respondents succeeding with decoupled databases? For our survey audience, it looks like the smaller the proportion of microservices that share access to a central, managed database, the greater the likelihood of failure. Think of this as what&nbsp;<a href="https://en.wikipedia.org/wiki/Survivorship_bias">survivorship bias</a>&nbsp;is most apt to miss: i.e., failure. The lesson in such cases is usually that failure&nbsp;<a href="https://medium.com/@penguinpress/an-excerpt-from-how-not-to-be-wrong-by-jordan-ellenberg-664e708cfc3d">tells a valuable story of its own</a>.</p>
+
+
+
+<p>Of the respondents who said that they are “not successful at all,” 71% said that they did not make much use of a centrally managed database (under 10% of their microservices). The problem is that we don’t actually know what using (or not using) a centrally managed database entails because the question itself is imprecise. For example, a recommended practice is to implement a separate namespace for each microservice. This can be accomplished in several ways—including by using a centralized database!<sup>2</sup> But implementing a separate namespace for each service raises a number of hard problems, starting with transactional integrity and data consistency, and (notionally) encompassing security and privacy, too. Working through these issues isn’t easy, even with a centralized database. It’s much harder without one, however.</p>
+
+
+
+<p>However, while it’s easy to look at these failures and suppose that using a separate database (or database schema) per service is a bad idea that leads to failure, that’s far from the whole picture. Think back to where we started this section: microservices represents a tradeoff of complexity against flexibility. (And also a tradeoff of complexity now versus complexity accreted over the years in a legacy system–we could perhaps think of paying off technical debt with a big “balloon payment.”) Replacing a legacy monolith with microservices isn’t easy. But working through the current complexity to build a system that’s more likely to serve your future needs is what good engineering is all about. And when you’re building a complex system, you need to know where the pain points are. That’s what this data is really telling us: redesigning databases to eliminate dependencies between services is a significant pain point.</p>
+
+
+
+<h3><strong>Monolithic UI</strong></h3>
+
+
+
+<p>We also asked users what percentage of the systems deployed as microservices had a monolithic user interface (Figure 8). This question is also problematic. First, what is a monolithic UI? More to the point, what would our respondents assume we mean by a monolithic UI, and what are they doing if they’re not building a monolithic UI? There are several possibilities, none of which is entirely convincing. One recent trend in web development is&nbsp;<a href="https://martinfowler.com/articles/micro-frontends.html">“micro frontends”</a>, but this doesn’t appear to be&nbsp;<a href="https://trends.google.com/trends/explore?geo=US&amp;q=micro%20frontend,microservice">well-known enough</a>&nbsp;to have a significant effect on our data. Respondents are likely to associate a “monolithic UI” with traditional web development (or perhaps even desktop applications or ancient “green screens”), as opposed to the use of components within a framework like React. (Since micro frontends are built with frameworks like React, these may be two names for almost the same thing. Once you’re using a component-based framework, associating components with individual back-end services isn’t a big leap.) In any case, it is likely that a monolithic UI represents a tradeoff for simplicity over flexibility and complexity. A front end built with a modern reactive web framework is almost certainly more flexible–and more complex–than a 1990s-era web form.</p>
+
+
+
+<p>Use of a monolithic UI is another possible example of survivorship bias; it’s also another case in which respondents who are successful with microservices are much less interesting than those who aren’t.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/07/ma20_08-1.png" alt="" class="wp-image-13110" srcset="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/07/ma20_08-1.png 904w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/07/ma20_08-1-300x177.png 300w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/07/ma20_08-1-768x454.png 768w" sizes="(max-width: 904px) 100vw, 904px" /><figcaption><em>Figure 8: Proportion of microservices that use a monolithic UI</em></figcaption></figure>
+
+
+
+<p>Take the cluster of respondents who&nbsp;<em>don’t</em>&nbsp;build a monolithic UI. (That is, &lt;10% of their microservices use a monolithic UI.) At 31% of all respondents, this is the largest group. But it also has the highest rate of complete failure: 17% describe their implementations as “Not successful at all.” Respondents in this group were also more likely to describe their projects as a “complete success” (12%); 37% said they were “mostly successful.”</p>
+
+
+
+<p>At the other end of this spectrum, among respondents who used a monolithic UI for 50-75% of their systems, only 2% said they were not successful at all. 8% said their projects were a “complete success,” while 52% said their projects were “mostly successful.”</p>
+
+
+
+<p>What are we to make of this? It’s hard to say, given that the notion of a monolithic UI (and its opposite) are poorly defined. But this looks similar to what we observed for databases. Reactive web frameworks (like React and Angular), which are used to build many modern web interfaces, are very complex systems in their own right. It’s not surprising that systems that don’t use a monolithic UI have a high failure rate, and that systems that implement a monolithic UI have a fairly high success rate; if simplicity for developers were the only criteria, we’d all go back to green screens.</p>
+
+
+
+<p>Rather than just looking at a “complexity tax,” we have to consider what the goal is: building systems that can easily be extended and scaled as conditions change. Is a UI that isn’t monolithic (regardless of the technology) more complex? Probably so. Ideally, moving a monolithic application’s back end to microservices while maintaining the legacy front-end would be minimal work (though “minimal” is always more minimal in theory than in practice). What’s gained in return? Additional flexibility; in this case, we’d be looking for the ability to support different kinds of user interfaces and different kind of interactions. Adding a mobile or voice UI to a legacy front end can easily become a nightmare; but it’s hard to imagine any modern application that doesn’t have a mobile front-end, and in a few years, it will be hard to imagine an application without a voice-driven front end. Re-envisioning the front end in terms of services (however they may be implemented) is building flexibility into the system. What other user interfaces will we need in the next few years? Again, the issue is never simply “complexity”; it’s what you get in return.</p>
+
+
+
+<h2><strong>Benefits and Challenges</strong></h2>
+
+
+
+<p>Respondents were asked which benefits, if any, they attribute to their successful use of microservices (Figure 9). They were asked to select all applicable benefits.</p>
+
+
+
+<p>The largest cluster for this response (at 45%) named “feature flexibility,” followed (at just under 45%) by “responding quickly to changing technology and business requirements.” Just under 44% cited the benefit of “better overall scalability,” followed (43%) by “more frequent code refreshes.” The least-cited benefit (15%) was that of lower development costs; just 20% of respondents say they realized one of the core promises of microservices: improved availability by virtue of multiple, redundant functions (i.e., services).</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/07/ma20_09-1-1048x730.png" alt="" class="wp-image-13111" srcset="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/07/ma20_09-1-1048x730.png 1048w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/07/ma20_09-1-300x209.png 300w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/07/ma20_09-1-768x535.png 768w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/07/ma20_09-1.png 1223w" sizes="(max-width: 1048px) 100vw, 1048px" /><figcaption><em>Figure 9: Benefits of using microservices</em></figcaption></figure>
+
+
+
+<p>Almost all of our Radar surveys have found that respondents cite corporate culture as one of the top two or three impediments to adoption or success. This survey was no exception. Culture was the most oft-cited challenge: almost 40% of respondents cited culture—or, alternatively, the problem of “overcoming existing mindset”—as among the biggest challenges they faced in adopting microservices (Figure 10). This was the largest cluster for this response, followed (37%) by the challenge of decomposing requirements into primitive/granular functions. The challenge of integrating with legacy systems was third, cited by approximately 30% of respondents.</p>
+
+
+
+<p>If we combine the two responses that have to do with complexity (“Increased complexity” and “Complexity of managing many services”), we find that complexity in one form or another is the biggest overall challenge, cited by 56% of respondents.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/07/ma20_10-1-768x1048.png" alt="" class="wp-image-13112" srcset="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/07/ma20_10-1-768x1048.png 768w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/07/ma20_10-1-220x300.png 220w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/07/ma20_10-1-1126x1536.png 1126w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/07/ma20_10-1.png 1253w" sizes="(max-width: 768px) 100vw, 768px" /><figcaption><em>Figure 10: Challenges encountered in adoption of microservices</em></figcaption></figure>
+
+
+
+<p>Other results of note: at No. 6, technical debt (cited by 28% of respondents) just missed the top five. It’s the kind of hard problem that cannot be wished, willed, or architected away–indeed, replacing a monolithic system with microservices can be seen as a “lump sum” payment of years of accrued technical debt. The rest of the top 10 reads like a laundry list of hard problems: API quality (28%), talent and skill shortages (28%), training and retraining challenges (also 28%) and monitoring/observability (27%) round out the top 10. The high showing for API quality—i.e., their richness, robustness, transparency, accessibility, stability (over time) and usefulness—shouldn’t be surprising. The relatively low result for security (No. 11, cited by 21% of respondents) is surprising.</p>
+
+
+
+<h2><strong>Takeaways</strong></h2>
+
+
+
+<p>For the most part, adopters say they’re having success with microservices: more than half (55%) describe their efforts as at least “mostly” successful. Respondents commonly attribute several clear benefits to their use of microservices, including feature flexibility; the ability to respond to changing business requirements; improved scalability; and more frequent code releases. And, at least among adopters, microservices comprise a growing share of production systems: almost half (46%) of respondents say their organizations are currently developing for or migrating one-quarter or more of their production systems to microservices. Nearly one-sixth (15%) say they’re developing or migrating between 75-100% of their systems to a microservices-oriented architecture. For our audience, microservices architecture is not only established but (for a majority of adopters) used to support systems or workloads in production.</p>
+
+
+
+<p>There’s evidence here for the microservices skeptic, too. About 8% of would-be adopters describe their experiences with microservices as “not successful at all.” Proponents will claim that 8% is a shockingly low rate of failure for any software development project, particularly given the&nbsp;<a href="https://www.zdnet.com/article/study-68-percent-of-it-projects-fail/">historical failure rates of large IT projects</a>; but skeptics will counter that 8% is still, well, 8%. And even if a majority of respondents say they’ve been “mostly successful” with microservices, a sizable percentage (37%) say they’ve had only “some” success. The upshot is that a little under half (45%) of all users have had bad, middling, or only modestly successful experiences with microservices. A skeptic might also point to selection bias: not only is our audience dominated by people in technical roles, but software developers and architects are overrepresented. A survey like this is bound to attract a disproportionate share of participants with an interest in seeing microservices succeed—or fail. In the same way, the person who volunteers her time to complete our survey is more likely than not to be working with or to have an interest in (for or against) microservices. These are all valid objections.</p>
+
+
+
+<p>Our results emphasize the importance of&nbsp;<em>pragmatic</em>&nbsp;microservices development. Microservices can be complex–there’s no point in denying that. And complexity frequently leads to failure–there’s no point in denying that, either. Using containers for deployment is a way of minimizing complexity. We’ve seen that decoupling databases is frequently a pain point, along with redesigning the user interface as a set of components. But again, it’s important to recognize that microservices rarely arise out of nowhere. Many microservice projects are replacing existing systems. And that existing system has its own complexity: complexity that grew over the years, complexity that’s preventing you from achieving your current goals. If you&#8217;ve become accustomed to your legacy systems, you probably don&#8217;t realize how complex they are–but if you’ve made the decision to migrate from a monolith to microservices, the complexity of maintaining your monolith is almost certainly the reason.</p>
+
+
+
+<p>Replacing one kind of complexity with another–is that a gain? Absolutely, if it’s done correctly and enables you to achieve your goals. Complexity is an engineering problem, and engineering problems are always about tradeoffs. When you’re building microservices, keep your eye on the goal–whether that’s supporting new features, scaling for more customers, providing a new experience for users, or something else. Don&#8217;t be surprised that microservices bring their own complexity, and don&#8217;t let that daunt you. But don&#8217;t underestimate the challenge, either.</p>
+
+
+
+<p><em>Special thanks to Kristen Haring, Phil Harvey, Mark Madsen, Roger Magoulas, Larry “Catfish” Murdock, Sam Newman, and Mac Slocum for—among other invaluable contributions—questions, comments, context, and, above all, constructive criticism.</em></p>
+
+
+
+<p></p>
+
+
+
+<h3>Footnotes</h3>
+
+
+
+<p><sup>1</sup> For example, 10% of respondents say they use containers to deploy between 10-25% of their microservices; a little more than 9% deploy between 25-50% of microservices with containers; and, again, 11% deploy between 50-75% using containers.</p>
+
+
+
+<p><sup>2</sup> A development team could use a centrally managed database to create separate namespaces for each service. This practice is notionally consistent with the idea that each microservice should own its data. It also saves developers the headache of coding logic to manage data consistency, transactional durability, and other issues. Or, alternatively, software developers could opt to manage data persistence (along with data consistency and transactional durability) on a per-microservices basis, a practice that is strictly consistent with the idea of data sovereignty, but which radically ups the complexity factor.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://www.oreilly.com/radar/microservices-adoption-in-2020/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>Cloud Adoption in 2020</title>
+		<link>https://www.oreilly.com/radar/cloud-adoption-in-2020/</link>
+				<comments>https://www.oreilly.com/radar/cloud-adoption-in-2020/#respond</comments>
+				<pubDate>Tue, 19 May 2020 18:40:09 +0000</pubDate>
+		<dc:creator><![CDATA[Roger Magoulas and Steve Swoyer]]></dc:creator>
+				<category><![CDATA[Next Architecture]]></category>
+		<category><![CDATA[Research]]></category>
+
+		<guid isPermaLink="false">https://www.oreilly.com/radar/?p=12817</guid>
+				<description><![CDATA[We wanted to discover what our readers were doing with cloud, microservices, and other critical infrastructure and operations technologies. So we constructed a survey and ran it earlier this year: from January 9th through January 31st, 2020. All told, we received 1,283 responses. A lot happened between January and the first week of March, when [&#8230;]]]></description>
+								<content:encoded><![CDATA[
+<div class="wp-block-group"><div class="wp-block-group__inner-container">
+<div class="wp-block-group"><div class="wp-block-group__inner-container">
+<p class="has-text-color has-background has-small-font-size has-very-dark-gray-color has-very-light-gray-background-color">To continue learning and to get ahead with your career, check out O&#8217;Reilly Learning with a free trial.  Live online training, videos, books, certification prep, and more, from O&#8217;Reilly and our partner publishers.</p>
+
+
+
+<div class="wp-block-button"><a class="wp-block-button__link has-text-color has-vivid-red-color has-background has-very-light-gray-background-color" href="https://www.oreilly.com/">O&#8217;Reilly Learning &gt;</a></div>
+<br />
+</div></div>
+</div></div>
+
+
+
+<br />
+<br />
+
+
+
+<p>We wanted to discover what our readers were doing with cloud, microservices, and other critical infrastructure and operations technologies. So we constructed a survey and ran it earlier this year: from January 9th through January 31st, 2020. All told, we received 1,283 responses.</p>
+
+
+
+<p>A lot happened between January and the first week of March, when we got around to analyzing our survey data. It seemed clear to us that the world we’d captured in our survey was going to change (if it hadn’t already)—that some trends would accelerate, that some would decelerate, and that things would never be quite the same. It seems to us that the results of our survey offer a point-in-time snapshot of the latest trends in cloud, microservices, distributed application development, and other emergent areas. Not only do they capture where organizations are, but, more important, they illuminate how they will evolve. We will spend months or even years trying to determine the extent to which we must recalibrate our best-laid plans and assumptions. And as we do so, we will look to surveys like this one as lodestars.</p>
+
+
+
+<p>Without further ado, here are the key results:</p>
+
+
+
+<p>• At first glance, cloud usage seems overwhelming. More than 88% percent of respondents use cloud in one form or another. Most respondent organizations also expect to grow their usage over the next 12 months.<br><br>• A surprising number of respondents—about 25%—said that their companies plan to move <em>all</em> of their applications to a cloud context in the next year. This includes 17% of respondents from large organizations (over 10,000 employees) that have already moved 100% of their applications to the cloud.<br><br>• Public cloud dominates, but most organizations use a mix of cloud options; almost half (49%) continue to run applications in traditional, on-premises contexts.<br><br>• More than half of respondents use multiple cloud services.<br><br>• AWS is far and away the cloud leader, followed by Azure (at more than half of share) and Google Cloud. But most Azure and GCP users also use AWS; the reverse isn’t necessarily true.<br><br>• More than half of respondent organizations use microservices.<br><br>• More than <em>one-third</em> have adopted site reliability engineering<br> (SRE); slightly less have developed production AI services. For<br> this audience, SRE’s future is brighter than AI’s, however.</p>
+
+
+
+<h2>Respondent Demographics</h2>
+
+
+
+<p>Software engineers represent the largest cohort, comprising almost 20% of all respondents (see <a data-type="xref" href="#fig_1">Figure 1</a>). Technical leads and architects (about 11%) are next, followed by software and systems architects (9+%). For the sample as a whole, most respondents (approximately 60%) occupy technical positions. However, a notable minority—some 15%—occupy C-level or executive roles. And about 10% work in technical management positions. That results in roughly 25% share for managers and executives. The “Other” category had a good mix of technical positions (e.g., network engineer, at &gt;2%) and management positions (IT manager, at close to 3%; operations manager at &gt;1%).</p>
+
+
+
+<figure class="wp-block-image size-large" id="fig_1"><img src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0101-1048x504.png" alt="" class="wp-image-12818" srcset="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0101-1048x504.png 1048w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0101-300x144.png 300w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0101-768x370.png 768w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0101.png 1436w" sizes="(max-width: 1048px) 100vw, 1048px" /><figcaption>Figure 1. Role of survey respondents</figcaption></figure>
+
+
+
+<p>A significant minority of respondents (22%) have worked in their roles for more than 10 years; the largest single bloc—almost 34% of all respondents—for between one to three years (<a data-type="xref" href="#fig_2">Figure 2</a>). There is atypical longevity in the survey audience: almost 55% have worked in their roles for at least four years, and a surprising number (almost 13%), for more than 12 years. It is a more experienced group than we’re used to seeing in our Radar surveys. The maturity of this audience could be a reflection of the maturity of the topic. Still, a solid third of respondents have between one to three years of experience.</p>
+
+
+
+<figure class="wp-block-image size-large" id="fig_2"><img src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0102-1048x634.png" alt="" class="wp-image-12819" srcset="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0102-1048x634.png 1048w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0102-300x181.png 300w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0102-768x464.png 768w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0102.png 1085w" sizes="(max-width: 1048px) 100vw, 1048px" /><figcaption>Figure 2. Length of time in current role</figcaption></figure>
+
+
+
+<p>Almost one-quarter (23%) of respondents work in the software<br> industry (<a data-type="xref" href="#fig_3">Figure 3</a>). Finance and banking (&gt;11%) is the second-largest vertical, followed closely by consulting and professional services (also &gt;11%).</p>
+
+
+
+<figure class="wp-block-image size-large" id="fig_3"><img src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0103-1048x732.png" alt="" class="wp-image-12822" srcset="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0103-1048x732.png 1048w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0103-300x210.png 300w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0103-768x536.png 768w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0103.png 1423w" sizes="(max-width: 1048px) 100vw, 1048px" /><figcaption>Figure 3. Industry of survey respondents</figcaption></figure>
+
+
+
+<p>We’re used to seeing these three verticals dominate representation in our Radar surveys. At 23%, however, the software vertical is significantly overrepresented, at least relative to prior surveys. Consulting and professional services, by contrast, could be slightly underrepresented. This may be a source of bias. We imagine that companies in the software industry are more likely to be early (or mid-stage) adopters of technologies like cloud computing.</p>
+
+
+
+<p>There’s a good mix between large and small firms. About half of all respondents work in organizations with fewer than 1,000 employees. More than a quarter work with very large organizations—i.e., 10,000 or more employees. And about 28% work for small outfits of between one and 100 people.</p>
+
+
+
+<p>About two-thirds of respondents work in North America. The next largest region, Asia, is home to about 15% of all respondents. Europe, which in most Radar surveys constitutes the second-largest respondent bloc, was third, accounting for just 11% of all participants. This survey’s disproportionate tilt toward North America is unusual. In our <a href="https://oreil.ly/F33Ir">AI adoption in the enterprise survey</a>, for example, we had close to a 50/50 split between North America and the rest of the world.<sup>1</sup> Regional representation in Radar surveys typically tracks with usage on the O’Reilly learning platform. North American users account for about half of activity on the O’Reilly platform. That isn’t the case here. Again, this is a source of bias: companies in some European countries are much more hesitant about moving workloads to the cloud.</p>
+
+
+
+<h2>Almost Completely Cloud-y</h2>
+
+
+
+<p>Slightly more than 88% of respondent organizations use cloud computing. Just 10% of respondents say they don’t use cloud computing <em>at all</em>, however. If this seems anomalously high, it shouldn’t.</p>
+
+
+
+<p>A strict definition of “cloud” must also include software-as-a-service (SaaS) and platform-as-a-service (PaaS) offerings of all kinds—including email (Google G Suite email; Microsoft Exchange Online), office productivity suites (Google Docs and Sheets; Microsoft Office 365), and similar offerings. Designing a survey inevitably entails making a spate of methodological trade-offs. We <em>could</em> have specified a narrow definition of cloud—inclusive of the SaaS, PaaS, and infrastructure-as-a-service (IaaS) cloud; exclusive of cloud-based email, office productivity, etc.—but the fact remains that a proportion of enterprises either outsource their email hosting to Google, Microsoft, and other providers <em>or</em> subscribe to cloud office productivity services that (in most cases) bundle email hosting, too. These services are also designed to function as gateway drugs to cloud services: e.g., Microsoft integrates its on- and off-premises Excel client experience with its PowerBI cloud analytics service, as well as with its ecosystem of Azure-based advanced analytics and machine learning (ML) services.</p>
+
+
+
+<p>This brings up another, related issue: how much visibility do survey respondents actually have with respect to how and where cloud gets used in their organizations? It’s likely that most respondents lack complete visibility into and across their organizations; in a large enterprise, for example, few if any people have this kind of panoptic view. When we took all of these considerations into account, a more-inclusive frame for cloud adoption made the most sense to us. It encompasses private clouds, the IaaS cloud—also host to virtual private clouds (VPC)—and the PaaS and SaaS clouds. It is less concerned with formal definitions<sup>2</sup> and captures the point-in-time totality of cloud adoption.</p>
+
+
+
+<p>Among non-adopters, culture seems to be the biggest impediment to cloud adoption: just under 5% of non-adopters cited an “organizational preference to keep data on premises” (<a data-type="xref" href="#fig_4">Figure 4</a>). More than 2% cited regulatory concerns as a bulwark to adoption, while a still larger proportion—close to 3%—cited risk, especially with respect to migrating on-premises workloads, services, or data to cloud. Oddly, about 3% of non-adopters cited cost as a primary reason <em>not</em> to move workloads to cloud; cost-efficiency is usually touted as one of cloud’s most attractive features.</p>
+
+
+
+<figure class="wp-block-image size-large" id="fig_4"><img src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0104-1048x669.png" alt="" class="wp-image-12834" srcset="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0104-1048x669.png 1048w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0104-300x192.png 300w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0104-768x491.png 768w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0104.png 1179w" sizes="(max-width: 1048px) 100vw, 1048px" /><figcaption>Figure 4. Reasons why organizations have not adopted cloud computing (represents respondents who answered no to the question “Does your organization use cloud computing?”)</figcaption></figure>
+
+
+
+<p>Also of interest: close to 2% of non-adopters cited the prospect of<br> vendor lock-in as a rationale for not using cloud. All told, 22% of<br> respondents selected at least three issues; 46% chose at least two issues. Again, non-adopters comprise just 10% of the survey audience.</p>
+
+
+
+<h2>Cloud Usage Waxing, not Waning</h2>
+
+
+
+<p>Most (90%+) respondent organizations expect to increase their usage of cloud-based infrastructure. This result aligns very closely with the proportion of respondents (88%+) who have already adopted cloud. The upshot is that the overwhelming majority of adopters plan to grow, rather than reduce, their cloud usage share. Oddly, most growth seems to be happening at the extremes: almost one quarter of respondent organizations expect to move all of their applications to the cloud in the next 12 months (<a data-type="xref" href="#fig_5">Figure 5</a>). This was the second biggest cluster, overall. The largest cluster—at just under 34%—consists of respondents who expect to move one-quarter of their applications to the cloud in the next 12 months.</p>
+
+
+
+<figure class="wp-block-image size-large" id="fig_5"><img src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0105.png" alt="" class="wp-image-12843" srcset="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0105.png 909w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0105-300x173.png 300w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0105-768x443.png 768w" sizes="(max-width: 909px) 100vw, 909px" /><figcaption>Figure 5. Share of applications respondents expect their organizations to migrate to the cloud</figcaption></figure>
+
+
+
+<p>About 45% of respondent organizations expect to move three-quarters or more of their applications to cloud during this same period; 67% expect to shift half or more of their applications during that same period. Zoom out to 36 months, and close to 40% of all respondents expect that all of their applications will run in a cloud context—and about 63% anticipate running at least three-quarters of their applications in the cloud.<sup>3</sup> </p>
+
+
+
+<p>Taken at face value, these results suggest almost irresistible momentum in favor of cloud. Keep in mind, however, that usage share is based <em>on the applications respondents know of</em>, and that few if any respondents have a complete view of deployments across the whole of their organizations. With this caveat in mind, the results nonetheless suggest a wider embrace of cloud infrastructure and support <a rel="noreferrer noopener" aria-label="the idea that most organizations now equate cloud with what’s next for their infrastructure decisions (opens in a new tab)" href="https://www.oreilly.com/radar/what-is-next-architecture/" target="_blank">the idea that most organizations now equate cloud with what’s next for their infrastructure decisions</a>.</p>
+
+
+
+<h2>Public Cloud Dominates, but Most Organizations Opt to Mix Things Up</h2>
+
+
+
+<p>Among cloud adopters, more than 21% host all of their applications in a cloud context of one kind or another. However, organizations that host one-quarter or fewer of their applications in the cloud comprise the largest single cluster, at 39% of all respondents. As might be expected, small companies and startups are likely to host substantial proportions—in some cases, <em>all</em>—of their applications in the cloud. There were some surprises, however. For example, about 17% of companies with 10,000 or more employees host 100% of their applications in a cloud context of some kind (<a data-type="xref" href="#fig_6">Figure 6</a>). This number balloons to about 37% of companies with between one and 100 employees. Just under 50% of companies with 10,000 or more employees host 25% or fewer of their applications in a cloud context.</p>
+
+
+
+<figure class="wp-block-image size-large" id="fig_6"><img src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0106-1048x642.png" alt="" class="wp-image-12850" srcset="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0106-1048x642.png 1048w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0106-300x184.png 300w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0106-768x471.png 768w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0106.png 1232w" sizes="(max-width: 1048px) 100vw, 1048px" /><figcaption>Figure 6. A comparison of respondent organization size and share of applications hosted in the cloud</figcaption></figure>
+
+
+
+<p>Public cloud is the most popular overall deployment option, with a usage share greater than 61%. Traditional, on-premises deployment—at just under half (49%) of usage share—is second. Hybrid cloud, which combines public cloud services with on-premises private cloud infrastructure, is third, with approximately 39% usage.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0107-1048x539.png" alt="" class="wp-image-12855" srcset="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0107-1048x539.png 1048w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0107-300x154.png 300w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0107-768x395.png 768w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0107.png 1172w" sizes="(max-width: 1048px) 100vw, 1048px" /><figcaption>Figure 7. Cloud types used by respondents’ organizations (respondents could select all types that apply)</figcaption></figure>
+
+
+
+<p>The survey encouraged respondents to make multiple selections from among five cloud deployment options. Nearly one-tenth (9%) selected all five, and almost one-fifth (19%) selected four out of five. Almost two-thirds (64%) selected at least two cloud deployment options. The upshot is that—even though the public cloud is by far the most popular option—most respondent organizations employ a mix of cloud types. Interestingly, multi-cloud, or the use of multiple cloud computing and storage services in a single homogeneous network architecture, had the fewest users (24% of the respondents).</p>
+
+
+
+<p>However, more than half of respondents (54%) also use multiple cloud services. The poor showing for multi-cloud might be the difference between tactical/ad hoc and strategic usage. In other words, comparatively few respondent organizations appear to be pursuing <em>dedicated</em> multi-cloud strategies.</p>
+
+
+
+<h2>Amazon and AWS Ascendant</h2>
+
+
+
+<p>Not surprisingly, Amazon Web Services (AWS) is far out ahead of the rest of the pack: it’s used by more than two-thirds (~67%) of all respondents. However, close to half (~48%) use Microsoft Azure, and close to one-third (~32%) use Google Cloud Platform (GCP). Respondents were encouraged to select multiple cloud service providers; in fact, a slight majority of respondents—54%—use more than a single provider. Among cloud providers, Amazon, Microsoft, and Google dominate their rivals, with Alibaba Cloud, IBM Cloud, and Oracle Cloud garnering just under 12% of share. (The poor showing for Alibaba Cloud could be a function of the larger-thannormal North American bias in the audience, as could the representations of both IBM and Oracle, which are less.)</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0108.png" alt="" class="wp-image-12856" srcset="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0108.png 1048w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0108-300x150.png 300w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0108-768x384.png 768w" sizes="(max-width: 1048px) 100vw, 1048px" /><figcaption>Figure 8. Public cloud vendors used by respondents’ organizations (respondents could select all that apply)</figcaption></figure>
+
+
+
+<p>Among respondents who use only public cloud providers, AWS’ share was even larger: it accounted for 75% of usage, compared with 52% for Azure and 34% for GCP. In fact, AWS is clearly the backstop vendor: not only does it have the highest share among respondent organizations, but—of the 54% who use at least two cloud vendors—almost all of them (93%) list AWS as one of those vendors.</p>
+
+
+
+<p>If Microsoft and Google really are coming on strong, they aren’t dislodging Amazon and AWS. If anything, organizations seem to be pursuing multi-cloud strategies—even if they aren’t explicitly “doing” multi-cloud. Among our survey respondents, multi-cloud effectively means AWS + another cloud service.</p>
+
+
+
+<h2>Microservices Achieves Critical Mass, SRE Surging</h2>
+
+
+
+<p>More than half (52%) of respondent organizations say they use microservices concepts, tools, or methods for software development. Of these, a large minority—just over 28%—have been using microservices for more than three years. This was the second-largest cluster among users of microservices. The largest, at more than 55%, has been using microservices for between one and three years. Just 17% of users are new to microservices, with less than one year of adoption and use.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0109.png" alt="" class="wp-image-12857" srcset="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0109.png 990w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0109-300x132.png 300w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0109-768x339.png 768w" sizes="(max-width: 990px) 100vw, 990px" /><figcaption>Figure 9. Length of time respondents’ organizations have used microservices</figcaption></figure>
+
+
+
+<p>A few caveats are in order. First, our survey didn’t ask respondents if they (or their organizations) have adopted <em>microservices architecture</em>. There’s a world of difference between experimentation and/or ad hoc usage and adoption; we saw this with agile, and—as we note below—we’re likely seeing it with SRE, too. Just because a development team uses the tools, concepts, and methods of microservices architecture doesn’t mean it has <em>adopted</em> microservices architecture. It may be that microservices patterns, as distinct to conventional software development, are well suited for the particular use case, as with video encoding, which entails multiple parallel or concurrent CPU- or GPU-intensive workloads.</p>
+
+
+
+<p>Second, there is <a rel="noreferrer noopener" aria-label="some evidence (opens in a new tab)" href="https://trends.google.com/trends/explore?date=today%205-y" target="_blank">some evidence</a> that interest in microservices might be at or close to peaking. There is <a rel="noreferrer noopener" aria-label="also evidence (opens in a new tab)" href="https://arxiv.org/pdf/1903.11665.pdf" target="_blank">also evidence</a> that <a rel="noreferrer noopener" aria-label="decomposition (opens in a new tab)" href="https://martinfowler.com/articles/break-monolith-into-microservices.html" target="_blank">decomposition</a>—at least to the degree of granularity prescribed in microservices architecture—is proving to be more difficult than anticipated. Finally, there’s the <a rel="noreferrer noopener" aria-label="Perrow-ian (opens in a new tab)" href="https://en.wikipedia.org/wiki/Normal_Accidents" target="_blank">Perrow-ian</a> critique of microservices architecture, which argues that its complexity constitutes a kind of <em>de facto</em> tight coupling that makes it impossible to anticipate potential edge cases and eliminate risk.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0110.png" alt="" class="wp-image-12859" srcset="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0110.png 873w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0110-300x136.png 300w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0110-768x347.png 768w" sizes="(max-width: 873px) 100vw, 873px" /><figcaption>Figure 10. Presence of a Site Reliability Engineering (SRE) team within respondents’ organizations</figcaption></figure>
+
+
+
+<p>Almost 35% of respondent organizations have implemented a Site Reliability Engineering (SRE) function. Even though SRE is less well known than microservices, DevOps, and other topics, <a rel="noreferrer noopener" aria-label="it isn’t in any sense new (opens in a new tab)" href="https://trends.google.com/trends/explore?date=2005-01-01%202020-03-22" target="_blank">it isn’t in any sense new</a>. At this point, interest in SRE actually t<a rel="noreferrer noopener" aria-label="racks closely with interest in microservices itself (opens in a new tab)" href="https://trends.google.com/trends/explore?date=today%205-y" target="_blank">racks closely with interest in microservices itself</a>.</p>
+
+
+
+<p>Close to half of all organizations (47%) in our survey say they expect to implement an SRE function at some point in the future. Should this pan out, SRE adoption share would be roughly comparable to that of microservices. Is there significant overlap between the two, however? In other words, if an organization adopts microservices-oriented concepts, tools, and methods will it <em>also</em> tend to adopt an SRE function? Or is the growth in SRE related to other factors, such as (for example) declining interest in DevOps itself? In <a rel="noreferrer noopener" aria-label="our analysis of user activity on the O’Reilly learning platform (opens in a new tab)" href="https://www.oreilly.com/radar/oreilly-2020-platform-analysis/" target="_blank">our analysis of user activity on the O’Reilly learning platform</a>, we found that DevOps-related search and usage declined in both 2018 and 2019. We posited that adopters “might be having trouble scaling DevOps” because “developers tend to be less committed to DevOps’ operations component.”</p>
+
+
+
+<p>We’d be remiss if we didn’t note that the strong showing for SRE is almost certainly a function of selection bias in our audience—i.e., our respondents are more likely to be using SRE than not. SRE’s performance could also be a function of the same <a rel="noreferrer noopener" aria-label="cargo cult phenomenon (opens in a new tab)" href="https://en.wikipedia.org/wiki/Cargo_cult" target="_blank">cargo cult phenomenon</a> we saw during the agile revolution, when familiarity with the term and uptake of select ideas or methods was conflated with adoption. As for the declining interest in DevOps we recorded in our platform survey, it’s just as possible that this decline—measured in terms of topic usage and search activity on the O’Reilly learning platform—is actually a function of something else: namely, the <em>maturation</em> of the DevOps topic. Clearly, the DevOps practices that took root over the last decade aren’t going anywhere. Instead, it’s likely that IT professionals are exploring and learning about DevOps-adjacent disciplines (such as SRE) that are new to them.</p>
+
+
+
+<p>As we noted in our <a href="https://www.oreilly.com/radar/oreilly-2020-platform-analysis/" target="_blank" rel="noreferrer noopener" aria-label="platform analysis (opens in a new tab)">platform analysis</a>, in this and similar cases, it’s helpful to view the problem of user interest through the lens of the so-called <a href="https://en.wikipedia.org/wiki/Overton_window" target="_blank" rel="noreferrer noopener" aria-label="Overton Window (opens in a new tab)">Overton Window</a>, which circumscribes the human cognitive bandwidth that’s available in a certain place at a certain time. Obviously, no combination of issues or trends can exceed more than 100% of available bandwidth. The upshot is that declining interest in a topic doesn’t have to correlate with a decline in use (or usefulness) in practice. Or vice-versa. In the case of decline, a mix of emergent trends might be crowding out a topic. In the case of ascendancy, a trend might be (ephemerally) emergent.</p>
+
+
+
+<h2>Serverless Stagnant</h2>
+
+
+
+<p>We didn’t attempt to define serverless precisely, but for many people in our audience, serverless means “function-as-a-service” (for example, AWS Lambda). Services like AWS S3 are very much “serverless,” but that’s not common usage. With that in mind, one-third (almost 34%, in fact) of respondent organizations say they’re using serverless computing.</p>
+
+
+
+<p>This is roughly on par with the percentage that says they’re using SRE. Unlike with SRE, where almost half (47%) of respondents expect to add an SRE function at some point in the future, fewer (approximately 37%) expect to adopt serverless.<sup>4</sup> By the same margins—i.e., 37% pro-experimentation, 63% anti—fewer respondent organizations have “experimented” with serverless computing, e.g., by evaluating vendors, scoping serverless scenarios, or testing serverless on a limited basis.</p>
+
+
+
+<p>What’s interesting is that all three topics—viz., microservices, SRE, and serverless—seem to <a rel="noreferrer noopener" aria-label="track closely with one another (opens in a new tab)" href="https://trends.google.com/trends/explore?date=today%205-y" target="_blank">track closely with one another</a>. Is there a meaningful correlation here, or is this consonance spurious? Clearly, microservices <a rel="noreferrer noopener" aria-label=" (opens in a new tab)" href="https://trends.google.com/trends/explore?date=2013-09-01%202020-03-22" target="_blank">are not a new thing</a>—but <a rel="noreferrer noopener" aria-label="neither is SRE (opens in a new tab)" href="https://trends.google.com/trends/explore?date=2013-09-01%202020-03-22" target="_blank">neither is SRE</a>. Is it possible that the complexity of microservice architecture, serverless computing, service mesh architecture, and other next-generation patterns is contributing to (if not driving) interest in SRE? We don’t have the data to begin to answer this question.</p>
+
+
+
+<p>But it’s one we’d plan to keep an eye on.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0111-1048x518.png" alt="" class="wp-image-12863" srcset="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0111-1048x518.png 1048w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0111-300x148.png 300w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0111-768x379.png 768w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0111.png 1138w" sizes="(max-width: 1048px) 100vw, 1048px" /><figcaption>Figure 11. When respondents whose organizations do not currently use serverless expect their organizations to adopt serverless</figcaption></figure>
+
+
+
+<h2>Critical Skills for Success</h2>
+
+
+
+<p>Which skills are most important for migrating or implementing cloud-based infrastructure? Expertise in containers, Kubernetes, and monitoring all scored highly, but the number one skill area was cloud-based security. (The survey design encouraged respondents to select from among multiple listed skills.)</p>
+
+
+
+<p>Almost two-thirds of respondents (65%) selected cloud security, with monitoring (58%) a distant number two. General cloud knowledge was third (just over 56%), followed by containers and Kubernetes (just under 56%), respectively. All told, six separate skills polled at 50% or greater; 10 listed skills polled at 45% or greater. Clearly, respondents believe that they—along with other infrastructure and ops practitioners—need to skill up, with emphasis on security. Almost half (48%) of respondents selected six or more listed skills; 85% selected at least three listed skills. And 15% selected all 10 listed skills.</p>
+
+
+
+<p>We looked at the intersection of skills to see if respondents had selected specific combinations of skills more frequently than might otherwise be expected. We discovered obvious examples of correlation (i.e., a threshold at least 5% higher than expected) with containers and Kubernetes; containers and microservices; monitoring and observability; and between security and compliance. We found several examples of correlation between cloud-based security and other listed skills, which reinforces the idea that security dominates the thinking of infrastructure and ops practitioners; we found correlations involving security and monitoring; security and performance; and between security and observability.</p>
+
+
+
+<p>Finally, respondents selected some skill combinations less frequently than would be expected.<sup>5</sup> Some of these results are baffling, such as the absence of a correlation between microservices and security. Some examples of strong correlation (microservices and Kubernetes; containers and microservices) are consistent with trends we’ve described elsewhere, e.g., <a rel="noreferrer noopener" aria-label="the Next Architecture (opens in a new tab)" href="https://www.oreilly.com/radar/what-is-next-architecture/" target="_blank">the Next Architecture</a>.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0112-1048x691.png" alt="" class="wp-image-12865" srcset="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0112-1048x691.png 1048w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0112-300x198.png 300w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0112-768x506.png 768w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0112.png 1296w" sizes="(max-width: 1048px) 100vw, 1048px" /><figcaption>Figure 12. Skills respondents’ organizations need for better migration and implementation of cloud-based infrastructure</figcaption></figure>
+
+
+
+<h2>AI in Production, Poised for Growth</h2>
+
+
+
+<p>Almost 36% of respondent organizations have deployed AI services. About 47% expect to deploy AI-based services at some point over the next three years; of these, the largest cohort (almost 20%) expects to do so in the next two years. Still, close to 53% do not anticipate doing anything with AI.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0113-1048x555.png" alt="" class="wp-image-12866" srcset="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0113-1048x555.png 1048w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0113-300x159.png 300w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0113-768x406.png 768w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/05/ca20_0113.png 1181w" sizes="(max-width: 1048px) 100vw, 1048px" /><figcaption>Figure 13. When respondents whose organizations do not currently use AI services expect their organizations to adopt AI services</figcaption></figure>
+
+
+
+<p>The discrepancy isn’t surprising. A survey on infrastructure and operations will tend to attract people who are interested in infrastructure and operations. Ditto for ML and AI. Every survey has a self-selection bias.</p>
+
+
+
+<p>Still, the result seems anomalous. In the first case, it flies in the face of predominant trends. In <a rel="noreferrer noopener" aria-label="our recent machine learning (ML) and AI adoption survey (opens in a new tab)" href="https://www.oreilly.com/radar/ai-adoption-in-the-enterprise-2020/" target="_blank">our recent machine learning (ML) and AI adoption survey</a>, for example, we found that most organizations—about 53%—are using AI in production today. Even granting that AI is (over-)hyped, we should expect to see a <em>majority</em> result for planned AI adoption, shouldn’t we? In the second case, there are very good reasons why AI should be of interest to IT professionals who work in infrastructure and operations and (more important) the companies that employ them. Take <a rel="noreferrer noopener" aria-label="observability (opens in a new tab)" href="https://learning.oreilly.com/library/view/distributed-systems-observability/9781492033431/ch01.html" target="_blank">observability</a>, for example. It’s an important concept in software architecture, especially in next-generation regimes, such as microservice architecture. Machine learning and similar advanced techniques (e.g., deep learning) will likely play an important role in <em>observing</em> the observable systems that we build, just as AI-directed rules and AI-driven automation will be critical for managing and securing these systems.</p>
+
+
+
+<p>How, then, can an organization expect to manage the thousands or tens of thousands of services that comprise an observable system without building AI services? One explanation is that respondents simply lack visibility into this aspect of their organization’s planning. In other words, because AI-related development is owned by one or more different groups—data scientists, ML and AI engineers, Data‐Ops practitioners—many respondents genuinely aren’t aware of what their organizations are doing. An equally likely explanation is that respondents are failing to appreciate what actually constitutes AI. <a rel="noreferrer noopener" aria-label="As we noted in another context (opens in a new tab)" href="https://www.oreilly.com/radar/6-trends-framing-the-state-of-ai-and-ml/" target="_blank">As we noted in another context</a>, “AI” used to be identified with so-called <a rel="noreferrer noopener" aria-label="artificial general intelligence (opens in a new tab)" href="https://en.wikipedia.org/wiki/Artificial_general_intelligence" target="_blank">artificial general intelligence</a>, or AGI. Increasingly, however, we’re seeing it used to describe the application of machine learning to solve problems, increase productivity, accelerate processes, and in many cases deliver wholly new products and services. Almost any consumer-facing site that makes product recommendations is using AI (although possibly in a very simple form.) It’s possible that some proportion of respondents had AGI in mind. Had we asked more specific questions, we likely would have gotten different results.</p>
+
+
+
+<h2>Conclusion</h2>
+
+
+
+<p>The survey was conceived and conducted in the months prior to the tumult of March and April. It is a product of a pre-pandemic sensibility.</p>
+
+
+
+<p>The impact of a pandemic event isn’t just disruptive, it’s transformative: it fundamentally changes the status quo; it compels the revaluation of virtually all assumptions. This invites the obvious question: Were we to conceive this survey today, what would we do differently? Obviously, we’d ask questions that take into account the realities—e.g., an unprecedented emphasis on social isolation; a new (and mostly unprecedented) acceptance of telework, geographical separation, and distance(-ing); a business climate characterized by extreme uncertainty, with most analysts forecasting severe recession, if not possible depression—that serve as backdrop to this, our moment.</p>
+
+
+
+<p>The most challenging thing about what’s happening is that it’s <em>very much happening</em>: we’re still coming to terms with it. Changes, compromises, reconfigurations that we never thought possible could become <em>de rigueur</em>. Other major changes will unfold over much larger periods of time.</p>
+
+
+
+<p>It’s naïve to think we could anticipate even the broad strokes of these changes, let alone the specificity of their content. And it’s unhelpful—perhaps even dangerous—to overthink things. That said, it is useful to speculate about what could change in the near term, at least now that we have precedent for the unprecedented. It’s possible that the public cloud could become an even more attractive option for companies of all sizes. It’s possible that hybrid clouds combining PaaS or IaaS services with the virtual private cloud—that is, private cloud deployments which live in the public cloud—could see increased uptake, too. It’s also possible that more organizations will pursue multi-cloud as a strategy to hedge against potential disruption.</p>
+
+
+
+<p>The hope of reducing costs won’t be the only thing driving new interest in cloud. Almost all enterprises are already dealing with staffing problems on several fronts: <em>first</em>, illness-related staffing shortages; <em>second</em>, staffing shortages that stem from shelter-in-place orders at the municipal, county, or state levels; <em>third</em>, furlough- or layoff-related staffing shortages. In some cases, IT workers have opted to withdraw from the workforce, e.g., to safeguard the health and well-being of their families. The combination of these and other staffing-related issues could compel companies to revisit not only the necessity for on-site/on-premises work, but the responsibility for hiring, recruiting, and managing IT staff to support applications or services that could shift to a third-party provider. Is it more credible for a large cloud service like Amazon, Google, IBM, or Microsoft to argue that its employees are essential than—for example—the IT staff of a major cosmetics retailer? More to the point, are the major cloud providers more likely to keep their datacenters running in the face of quarantines than a business with a private datacenter? The answer to the latter question has to be “yes.”</p>
+
+
+
+<p>These are just a few possible changes. Had we the opportunity to redo our survey, we would almost certainly ask questions that drill down deeper into these issues. Nevertheless, we believe the results we capture here have considerable merit: not as quaint relics of a prelapsarian past, but as valid indications of where we were and <em>where we’ll be</em> when things pick back up again. There’s no reason to assume that the underlying trends here will be annulled by the effects of COVID-19. Impacted, yes; annulled, no. The shift to cloud, uptake of microservices, increasing interest in SRE, emphasis on Kubernetes, container virtualization, and other critical skills: each of these trends has staying power, especially to the degree that they’re implicated in or correlated to one another.</p>
+
+
+
+<div class="wp-block-group"><div class="wp-block-group__inner-container">
+<br />
+</div></div>
+
+
+
+<p>————————————————————————————————</p>
+
+
+
+<p><sup>1</sup> Regional representation in Radar surveys typically tracks with usage on the O’Reilly learning platform. North American users account for about half of activity on the O’Reilly platform. That isn’t the case here.</p>
+
+
+
+<p><sup>2</sup> For example: What criteria do we use to distinguish between private and public cloud? How do these criteria—and the distinction itself—relate to hybrid cloud? To virtual private cloud? What if an organization hosts its cloud in a colocation facility? Is it public or private? Is tenancy—e.g., a single-tenant cloud hosted in an off-site facility is a private cloud—the most important criterion? If an organization uses a combination of virtualization and automation to host some of its workloads, has it created a private cloud?</p>
+
+
+
+<p><sup>3</sup> But <em>which</em> cloud? Or in which cloud context? The essential characteristics of modern software architecture—loose coupling; abstraction, isolation, and atomicity—are eliding the boundaries between what we think of as “cloud” versus “on-premises” contexts. As we wrote in <a href="https://www.oreilly.com/radar/oreilly-2020-platform-analysis/" target="_blank" rel="noopener noreferrer">our analysis of search and usage on the O’Reilly learning platform</a>: “Specific deployment contexts will still matter, of course … but the clear boundaries that used to demarcate the public cloud from the private cloud from conventional on-premises systems will fall away. It’s all cloud-like, irrespective of context.”</p>
+
+
+
+<p><sup>4</sup> This looks like another case in which interest in a technology—namely, serverless—also tracks with interest in other, not necessarily related technologies, <a href="https://trends.google.com/trends/explore?date=today%205-y" target="_blank" rel="noopener noreferrer">in this case, microservices and SRE</a>. Even if serverless adoption lags, interest in it seems to wax and wane with (and perhaps benefit from) interest in these other technologies.</p>
+
+
+
+<p><sup>5</sup> These include general cloud knowledge + security; general cloud knowledge + performance; microservices + security; compliance + monitoring; compliance + performance. All with a threshold 5% lower than expected.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://www.oreilly.com/radar/cloud-adoption-in-2020/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>The death of Agile?</title>
+		<link>https://www.oreilly.com/radar/the-death-of-agile/</link>
+				<comments>https://www.oreilly.com/radar/the-death-of-agile/#respond</comments>
+				<pubDate>Mon, 02 Mar 2020 11:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[Mike Loukides]]></dc:creator>
+				<category><![CDATA[Next Architecture]]></category>
+		<category><![CDATA[Radar Column]]></category>
+		<category><![CDATA[Commentary]]></category>
+
+		<guid isPermaLink="false">https://www.oreilly.com/radar/?p=12169</guid>
+				<description><![CDATA[I read an article on the death of Agile. It&#8217;s not the first article I&#8217;ve seen claiming that Agile is dead, and I&#8217;m sure it won&#8217;t be the last. The problem with the claim that Agile is &#8220;dead&#8221; is that, as Eben Hewitt said to me in a conversation, &#8220;no movement has succeeded until it [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>I read an article on the <a href="https://siliconangle.com/2020/02/03/agile-software-development-dead-deal/">death of Agile</a>. It&#8217;s not the first article I&#8217;ve seen claiming that Agile is dead, and I&#8217;m sure it won&#8217;t be the last.</p>
+<p>The problem with the claim that Agile is &#8220;dead&#8221; is that, as <a href="https://twitter.com/ebenhewitt?lang=en">Eben Hewitt</a> said to me in a conversation, &#8220;no movement has succeeded until it has become a parody of itself.&#8221; This is a brilliant point that applies perfectly to Agile. What is modern Agile? Fetishizing standups. Fetishizing pair programming. Fetishizing unit testing. Scrum fetishizes working in short, intense bursts. (In the 80s, I worked for a company that had a lot of practices that anticipated Scrum. All I can say is that they were extremely unhealthy. Buy me a beer and I may tell you more.) None of these are bad in and of themselves, but they all miss the point, particularly when they become a ritual. (Standup meetings that are over an hour long? Yep, been invited to those. Refused to attend after the first one.) More often than not, the result of fetishization is—nothing at all. A few existing practices are re-named, a few new rituals are created, and work goes on exactly as it did before—but now it&#8217;s &#8220;agile.&#8221; That kind of Agile needs to die. I won&#8217;t be among the mourners.</p>
+<p>The one thing I don&#8217;t see, and the one thing that more than anything else captures the value in Agile, is the ongoing conversation between the customer (however that&#8217;s conceived) and the developer. This is important. Agile is not, and never was, about getting developers to write software faster. (Scrum might have been&#8230;) Agile is about getting developers in touch with the people who are the actual users and customers, regularly and repeatedly, so that the project doesn’t inevitably wander off course and produce something (in the words of Douglas Adams) &#8220;almost, but not quite, entirely unlike tea.&#8221;</p>
+<p>I&#8217;m not an Agile fundamentalist, or even a serious Agile evangelist. But it&#8217;s worth some time thinking about the <a href="https://agilemanifesto.org/">Agile Manifesto</a> and what it means, maybe even meditating on it. If you were involved with professional programming in the 80s and 90s, you may remember how radical it was (and, in many shops, still is) to put software developers in touch with users and customers. Neckbeards? Geeks and nerds? They might tell the customer that some feature they want is impossible! They might tell the truth! Then what would sales do?</p>
+<p>Well, it turns out if you want software to work, the developers have to talk to the people who need that software to work. You can&#8217;t leave that to sales people or marketers. You can&#8217;t create a &#8220;product owner&#8221; and say that&#8217;s their job—especially since, more often than not, &#8220;product owners&#8221; don&#8217;t have meaningful contact with customers themselves. (True story: at a former company, a salesperson made a major sale based on a feature that not only couldn&#8217;t possibly be implemented, it didn&#8217;t even make sense. We were very lucky not to be sued.) When a project is going off track because some requirement wasn&#8217;t understood properly, you need to fix that as soon as possible—not after a year-long development process. If Agile&#8217;s first principle is frequent interaction with the customer, its second (and a close corollary) is frequent mid-course corrections. Those mid-course corrections are always less painful than getting to the end and finding that you&#8217;ve built the wrong thing. And that’s a big clue about what the word “Agile” means. It’s not about getting software developers to write code faster. It’s about learning when you need to change direction, and then doing it. It’s about correcting small mistakes before they become big ones, before they’re amplified by a multi-year, multi-million dollar budget.</p>
+<p>So I really don&#8217;t want to hear that Agile doesn&#8217;t work for large projects and so on. I don&#8217;t care what you call it, but large projects (a) are rarely successful, regardless of the methodology, because they (b) get overloaded with a lot of features that nobody needs but that sound good, and (c) forget what the customer or user really needs or wants. Large projects are necessary, but they have a momentum that tends to drive them off course. Once a project starts going in the wrong direction, it tends to keep going in the wrong direction. That was true before Agile (didn’t Isaac Newton say that?), and will remain true after Agile. Agile provides the tools to keep those projects on track; whether those tools are used, or only get lip service, isn&#8217;t the fault of the methodology.</p>
+<p>Twenty or so years after the <a href="https://agilemanifesto.org/">Agile Manifesto</a> was written, Agile faces a number of challenges. The most important is discovering how to work with data science and artificial intelligence projects. Development timelines for these projects aren&#8217;t as predictable as traditional software; they stretch the meaning of &#8220;testing&#8221; in strange ways; they aren&#8217;t deterministic. Progress in developing software tends to be slow, incremental, and fairly well understood. It&#8217;s reasonable to have something to demo in two weeks (or whatever interval you choose). With AI, you can easily spend months searching for a model—and showing up to one standup meeting after another saying &#8220;ran more experiments, didn&#8217;t make progress,&#8221; until one day it works. (Perhaps the appropriate yardstick for AI projects is the experiment itself, not the code committed to git.)</p>
+<p>Can Agile work for large teams? Large teams present their own problems, but it&#8217;s ironic to see writers scorning the &#8220;two pizza group&#8221; concept because it can&#8217;t possibly work for large organizations. Do they know where the concept came from? I don&#8217;t know how many lines of code support Amazon&#8217;s core business, or how many software developers work on them, but I am sure that those are very large numbers. But again: value interactions over documentation. Make those interactions possible by dividing the project and keeping the groups small. And you can keep the principle of constant contact with the customer; you just have to be careful about understanding who your customer is, and what they mean. (This has to do with the concept of <a href="https://martinfowler.com/bliki/BoundedContext.html">bounded context</a> from Domain Driven Design.)</p>
+<p>I don’t think Agile is “perfect”; I don&#8217;t even know what &#8220;perfect&#8221; would mean in this context. I do think that Agile, as described in the Manifesto, points to a number of problems that persist in software development, and offers plausible solutions. Sadly, these solutions are more honored in the breach than in the observance; and Eben was right when he said that no methodology has succeeded until it has become a parody of itself. But if Eben is right, then the solution isn’t looking beyond Agile, but becoming self-aware and critical of our own actions. Why, when things change do they remain the same? What are the power struggles, the rewards and punishments, that lie behind the old and new methodologies? When processes change, who wins, who loses, and why? In any organization, answering those questions will say a lot about how Agile becomes self-parody.</p>
+<p>But really, do you know what it would mean for Agile to succeed? We’d forget about it. We’d just do it. Frequent contact with customers, good in-person communications between team members, along with practices like source control and testing, would just be in the air, like our Wi-Fi networks. We wouldn’t agonize over those practices, or create rituals and ceremonies around them. They’d simply be what we do. <em>— Mike Loukides</em></p>
+
+
+<hr class="wp-block-separator" />
+
+
+
+<h2>Radar data points: Recent research and analysis</h2>
+
+
+<p>In &#8220;<a href="https://www.oreilly.com/radar/oreilly-2020-platform-analysis/">5 key areas for tech leaders to watch in 2020</a>,&#8221; we examined search and usage data from the O&#8217;Reilly online learning platform. This data contains notable signals about the trends, topics, and issues tech leaders need to watch and explore.</p>
+<p>Findings include:</p>
+<ul>
+<li><strong>Python is preeminent</strong>. It’s the single most popular programming language on O’Reilly, and it accounts for 10% of <em>all</em> usage. This year’s growth in Python usage was buoyed by its increasing popularity among data scientists and machine learning (ML) and artificial intelligence (AI) engineers.</li>
+<li><strong>Software architecture, infrastructure, and operations are each changing rapidly</strong>. The shift to cloud native design is transforming both software architecture and infrastructure and operations. Also: <a href="https://conferences.oreilly.com/infrastructure-ops">infrastructure and operations</a> is trending up, while DevOps is trending down. Coincidence? Probably not, but only time will tell.</li>
+<li><strong>ML + AI are up, but passions have cooled</strong>. Up until 2017, the ML+AI topic had been amongst the fastest growing topics on the platform. Growth is still strong for such a large topic, but usage slowed in 2018 (+13%) and cooled significantly in 2019, growing by just 7%. Within the data topic, however, ML+AI has gone from 22% of all usage to 26%.</li>
+<li><strong>Still cloud-y, but with a possibility of migration</strong>. Strong usage in cloud platforms (+16%) accounted for most cloud-specific growth. But sustained interest in cloud migrations—usage was up almost 10% in 2019, on top of 30% in 2018—gets at another important emerging trend.</li>
+<li><strong>Security is surging.</strong> Aggregate security usage spiked 26% last year, driven by increased usage for two security certifications: CompTIA Security (+50%) and CompTIA CySA+ (+59%). There’s plenty of security risks for business executives, sysadmins, DBAs, developers, etc., to be wary of.</li>
+</ul>
+<p>We also recently conducted a survey looking at <a href="https://www.oreilly.com/radar/the-state-of-data-quality-in-2020/">the state of data quality</a>. As we suspected, the topic was brimming with interest—we quickly received more than 1,900 responses to our survey request.</p>
+<p>Key survey results:</p>
+<ul>
+<li><strong>The C-suite is engaged with data quality.</strong> CxOs, vice presidents, and directors account for 20% of all survey respondents. Data scientists and analysts, data engineers, and the people who manage them comprise 40% of the audience; developers and their managers, about 22%.</li>
+<li><strong>Data quality might get worse before it gets better. </strong>Comparatively few organizations have created dedicated data quality teams. Just 20% of organizations publish data provenance and data lineage. Most of those who don’t say they have no plans to start.</li>
+<li><strong>Adopting AI can help data quality.</strong> Almost half (48%) of respondents say they use data analysis, machine learning, or AI tools to address data quality issues. Those respondents are more likely to surface and address latent data quality problems. Can AI be a catalyst for improved data quality?</li>
+<li><strong>Organizations are dealing with multiple, simultaneous data quality issues</strong>. They have too many different data sources and too much inconsistent data. They don’t have the resources they need to clean up data quality problems. And that’s just the beginning.</li>
+<li><strong>The building blocks of data governance are often lacking within organizations</strong>. These include the basics, such as metadata creation and management, data provenance, data lineage, and other essentials.</li>
+</ul>
+
+
+<p>Be sure to check out our <a href="https://www.oreilly.com/radar/tag/research/">archive of Radar research and analysis</a>.</p>
+
+
+
+<hr class="wp-block-separator" />
+]]></content:encoded>
+							<wfw:commentRss>https://www.oreilly.com/radar/the-death-of-agile/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>Where do great architectures come from?</title>
+		<link>https://www.oreilly.com/radar/where-do-great-architectures-come-from/</link>
+				<comments>https://www.oreilly.com/radar/where-do-great-architectures-come-from/#respond</comments>
+				<pubDate>Wed, 26 Feb 2020 19:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[Mary Poppendieck]]></dc:creator>
+				<category><![CDATA[Next Architecture]]></category>
+		<category><![CDATA[Software Architecture NY 2020]]></category>
+
+		<guid isPermaLink="false">https://www.oreilly.com/radar/?p=12079</guid>
+				<description><![CDATA[This is a keynote highlight from the O&#8217;Reilly Software Architecture Conference in New York 2020. Watch the full version of this keynote on the O&#8217;Reilly online learning platform. You can also see other highlights from the event.]]></description>
+								<content:encoded><![CDATA[<p>This is a keynote highlight from the O&#8217;Reilly Software Architecture Conference in New York 2020. <a href="https://learning.oreilly.com/videos/oreilly-software-architecture/0636920333777/0636920333777-video329478">Watch the full version of this keynote on the O&#8217;Reilly online learning platform</a>.</p>
+<p>You can also <a href="https://www.oreilly.com/radar/highlights-from-software-architecture-ny-2020">see other highlights from the event</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://www.oreilly.com/radar/where-do-great-architectures-come-from/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>Intellectual control</title>
+		<link>https://www.oreilly.com/radar/intellectual-control/</link>
+				<comments>https://www.oreilly.com/radar/intellectual-control/#respond</comments>
+				<pubDate>Wed, 26 Feb 2020 19:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[George Fairbanks]]></dc:creator>
+				<category><![CDATA[Next Architecture]]></category>
+		<category><![CDATA[Software Architecture NY 2020]]></category>
+
+		<guid isPermaLink="false">https://www.oreilly.com/radar/?p=12086</guid>
+				<description><![CDATA[This is a keynote highlight from the O&#8217;Reilly Software Architecture Conference in New York 2020. Watch the full version of this keynote on the O&#8217;Reilly online learning platform. You can also see other highlights from the event.]]></description>
+								<content:encoded><![CDATA[<p>This is a keynote highlight from the O&#8217;Reilly Software Architecture Conference in New York 2020. <a href="https://learning.oreilly.com/videos/oreilly-software-architecture/0636920333777/0636920333777-video329475">Watch the full version of this keynote on the O&#8217;Reilly online learning platform</a>.</p>
+<p>You can also <a href="https://www.oreilly.com/radar/highlights-from-software-architecture-ny-2020">see other highlights from the event</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://www.oreilly.com/radar/intellectual-control/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>Architecture.Next: Invalidating old axioms</title>
+		<link>https://www.oreilly.com/radar/architecture-next-invalidating-old-axioms/</link>
+				<comments>https://www.oreilly.com/radar/architecture-next-invalidating-old-axioms/#respond</comments>
+				<pubDate>Wed, 26 Feb 2020 19:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[Mark Richards]]></dc:creator>
+				<category><![CDATA[Next Architecture]]></category>
+		<category><![CDATA[Software Architecture NY 2020]]></category>
+
+		<guid isPermaLink="false">https://www.oreilly.com/radar/?p=12092</guid>
+				<description><![CDATA[This is a keynote highlight from the O&#8217;Reilly Software Architecture Conference in New York 2020. Watch the full version of this keynote on the O&#8217;Reilly online learning platform. You can also see other highlights from the event.]]></description>
+								<content:encoded><![CDATA[<p>This is a keynote highlight from the O&#8217;Reilly Software Architecture Conference in New York 2020. <a href="https://learning.oreilly.com/videos/oreilly-software-architecture/0636920333777/0636920333777-video329479">Watch the full version of this keynote on the O&#8217;Reilly online learning platform</a>.</p>
+<p>You can also <a href="https://www.oreilly.com/radar/highlights-from-software-architecture-ny-2020">see other highlights from the event</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://www.oreilly.com/radar/architecture-next-invalidating-old-axioms/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>Highlights from the O&#8217;Reilly Software Architecture Conference in New York 2020</title>
+		<link>https://www.oreilly.com/radar/highlights-from-software-architecture-ny-2020/</link>
+				<comments>https://www.oreilly.com/radar/highlights-from-software-architecture-ny-2020/#respond</comments>
+				<pubDate>Wed, 26 Feb 2020 19:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[Mac Slocum]]></dc:creator>
+				<category><![CDATA[Next Architecture]]></category>
+		<category><![CDATA[Signals]]></category>
+		<category><![CDATA[Software Architecture NY 2020]]></category>
+
+		<guid isPermaLink="false">https://www.oreilly.com/radar/?p=12098</guid>
+				<description><![CDATA[People from across the software architecture world came together in New York for the O&#8217;Reilly Software Architecture Conference. Below you&#8217;ll find links to highlights from the event. The elephant in the architecture Martin Fowler reveals, discusses, and vents about a very common and widely neglected architectural attribute. Watch &#8220;The elephant in the architecture&#8220; Where do [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>People from across the software architecture world came together in New York for the <a href="https://conferences.oreilly.com/software-architecture/sa-ny">O&#8217;Reilly Software Architecture Conference</a>. Below you&#8217;ll find links to highlights from the event.</p>
+<h2>The elephant in the architecture</h2>
+<p>Martin Fowler reveals, discusses, and vents about a very common and widely neglected architectural attribute.</p>
+<ul>
+<li>Watch &#8220;<a href="https://www.oreilly.com/radar/the-elephant-in-the-architecture">The elephant in the architecture</a>&#8220;</li>
+</ul>
+<h2>Where do great architectures come from?</h2>
+<p>Mary Poppendieck looks at the history of dramatic architectural changes and what triggered them.</p>
+<ul>
+<li>Watch &#8220;<a href="https://www.oreilly.com/radar/where-do-great-architectures-come-from">Where do great architectures come from?</a>&#8220;</li>
+</ul>
+<h2>Architecture.Next: Invalidating old axioms</h2>
+<p>Mark Richards challenges the tried-and-true axioms in software architecture and shows you how to manage the changing state of the space.</p>
+<ul>
+<li>Watch &#8220;<a href="https://www.oreilly.com/radar/architecture-next-invalidating-old-axioms">Architecture.Next: Invalidating old axioms</a>&#8220;</li>
+</ul>
+<h2>Sometimes I draw</h2>
+<p>Kai Holnes walks you through the nebulous world of creative outlets and why maybe, just maybe, that journey is worth it.</p>
+<ul>
+<li>Watch &#8220;<a href="https://www.oreilly.com/radar/sometimes-i-draw">Sometimes I draw</a>&#8220;</li>
+</ul>
+<h2>Intellectual control</h2>
+<p>George Fairbanks considers whether today&#8217;s complex software has eclipsed our intellectual control.</p>
+<ul>
+<li>Watch &#8220;<a href="https://www.oreilly.com/radar/intellectual-control">Intellectual control</a>&#8220;</li>
+</ul>
+<h2>From the trenches: Rachel Laycock</h2>
+<p>Neal Ford interviews Rachel Laycock about her career path and her work as an architect.</p>
+<ul>
+<li>Watch &#8220;<a href="https://www.oreilly.com/radar/from-the-trenches-rachel-laycock">From the trenches: Rachel Laycock</a>&#8220;</li>
+</ul>
+]]></content:encoded>
+							<wfw:commentRss>https://www.oreilly.com/radar/highlights-from-software-architecture-ny-2020/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>Sometimes I draw</title>
+		<link>https://www.oreilly.com/radar/sometimes-i-draw/</link>
+				<comments>https://www.oreilly.com/radar/sometimes-i-draw/#respond</comments>
+				<pubDate>Tue, 25 Feb 2020 20:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[Kai Holnes]]></dc:creator>
+				<category><![CDATA[Next Architecture]]></category>
+		<category><![CDATA[Software Architecture NY 2020]]></category>
+
+		<guid isPermaLink="false">https://www.oreilly.com/radar/?p=12057</guid>
+				<description><![CDATA[This is a keynote highlight from the O&#8217;Reilly Software Architecture Conference in New York 2020. Watch the full version of this keynote on the O&#8217;Reilly online learning platform. You can also see other highlights from the event.]]></description>
+								<content:encoded><![CDATA[<p>This is a keynote highlight from the O&#8217;Reilly Software Architecture Conference in New York 2020. <a href="https://learning.oreilly.com/videos/oreilly-software-architecture/0636920333777/0636920333777-video329477">Watch the full version of this keynote on the O&#8217;Reilly online learning platform</a>.</p>
+<p>You can also <a href="https://www.oreilly.com/radar/highlights-from-software-architecture-ny-2020">see other highlights from the event</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://www.oreilly.com/radar/sometimes-i-draw/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>The elephant in the architecture</title>
+		<link>https://www.oreilly.com/radar/the-elephant-in-the-architecture/</link>
+				<comments>https://www.oreilly.com/radar/the-elephant-in-the-architecture/#respond</comments>
+				<pubDate>Tue, 25 Feb 2020 20:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[Martin Fowler]]></dc:creator>
+				<category><![CDATA[Next Architecture]]></category>
+		<category><![CDATA[Software Architecture NY 2020]]></category>
+
+		<guid isPermaLink="false">https://www.oreilly.com/radar/?p=12069</guid>
+				<description><![CDATA[This is a keynote highlight from the O&#8217;Reilly Software Architecture Conference in New York 2020. Watch the full version of this keynote on the O&#8217;Reilly online learning platform. You can also see other highlights from the event.]]></description>
+								<content:encoded><![CDATA[<p>This is a keynote highlight from the O&#8217;Reilly Software Architecture Conference in New York 2020. <a href="https://learning.oreilly.com/videos/oreilly-software-architecture/0636920333777/0636920333777-video329476">Watch the full version of this keynote on the O&#8217;Reilly online learning platform</a>.</p>
+<p>You can also <a href="https://www.oreilly.com/radar/highlights-from-software-architecture-ny-2020">see other highlights from the event</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://www.oreilly.com/radar/the-elephant-in-the-architecture/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>From the trenches: Rachel Laycock</title>
+		<link>https://www.oreilly.com/radar/from-the-trenches-rachel-laycock/</link>
+				<comments>https://www.oreilly.com/radar/from-the-trenches-rachel-laycock/#respond</comments>
+				<pubDate>Tue, 25 Feb 2020 20:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[Rachel Laycock and Neal Ford]]></dc:creator>
+				<category><![CDATA[Next Architecture]]></category>
+		<category><![CDATA[Software Architecture NY 2020]]></category>
+
+		<guid isPermaLink="false">https://www.oreilly.com/radar/?p=12075</guid>
+				<description><![CDATA[This is a keynote highlight from the O&#8217;Reilly Software Architecture Conference in New York 2020. Watch the full version of this keynote on the O&#8217;Reilly online learning platform. You can also see other highlights from the event.]]></description>
+								<content:encoded><![CDATA[<p>This is a keynote highlight from the O&#8217;Reilly Software Architecture Conference in New York 2020. <a href="https://learning.oreilly.com/videos/oreilly-software-architecture/0636920333777/0636920333777-video329474">Watch the full version of this keynote on the O&#8217;Reilly online learning platform</a>.</p>
+<p>You can also <a href="https://www.oreilly.com/radar/highlights-from-software-architecture-ny-2020">see other highlights from the event</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://www.oreilly.com/radar/from-the-trenches-rachel-laycock/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>5 key areas for tech leaders to watch in 2020</title>
+		<link>https://www.oreilly.com/radar/oreilly-2020-platform-analysis/</link>
+				<comments>https://www.oreilly.com/radar/oreilly-2020-platform-analysis/#respond</comments>
+				<pubDate>Tue, 18 Feb 2020 11:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[Roger Magoulas and Steve Swoyer]]></dc:creator>
+				<category><![CDATA[AI & ML]]></category>
+		<category><![CDATA[Innovation & Disruption]]></category>
+		<category><![CDATA[Next Architecture]]></category>
+		<category><![CDATA[Platform Analysis]]></category>
+		<category><![CDATA[Research]]></category>
+
+		<guid isPermaLink="false">https://www.oreilly.com/radar/?p=11698</guid>
+				<description><![CDATA[O’Reilly online learning contains information about the trends, topics, and issues tech leaders need to watch and explore. It’s also the data source for our annual usage study, which examines the most-used topics and the top search terms.[1] This combination of usage and search affords a contextual view that encompasses not only the tools, techniques, [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p id="F1"><a href="https://www.oreilly.com/online-learning/">O’Reilly online learning</a> contains information about the trends, topics, and issues tech leaders need to watch and explore. It’s also the data source for our annual usage study, which examines the most-used topics and the top search terms.<a href="#_ftn1"><sup>[1]</sup></a></p>
+<p>This combination of usage and search affords a contextual view that encompasses not only the tools, techniques, and technologies that members are actively using, but also the areas they’re gathering information about.</p>
+<p>Current signals from usage on the O’Reilly online learning platform reveal:</p>
+<ul>
+<li><strong>Python is preeminent</strong>. It’s the single most popular programming language on O’Reilly, and it accounts for 10% of <em>all</em> usage. This year’s growth in Python usage was buoyed by its increasing popularity among data scientists and machine learning (ML) and artificial intelligence (AI) engineers.</li>
+<li><strong>Software architecture, infrastructure, and operations are each changing rapidly</strong>. The shift to cloud native design is transforming both software architecture and infrastructure and operations. Also: <a href="https://conferences.oreilly.com/infrastructure-ops">infrastructure and operations</a> is trending up, while DevOps is trending down. Coincidence? Probably not, but only time will tell.</li>
+<li><strong>ML + AI are up, but passions have cooled</strong>. Up until 2017, the ML+AI topic had been amongst the fastest growing topics on the platform. Growth is still strong for such a large topic, but usage slowed in 2018 (+13%) and cooled significantly in 2019, growing by just 7%. Within the data topic, however, ML+AI has gone from 22% of all usage to 26%.</li>
+<li><strong>Still cloud-y, but with a possibility of migration</strong>. Strong usage in cloud platforms (+16%) accounted for most cloud-specific growth. But sustained interest in cloud migrations—usage was up almost 10% in 2019, on top of 30% in 2018—gets at another important emerging trend.</li>
+<li><strong>Security is surging.</strong> Aggregate security usage spiked 26% last year, driven by increased usage for two security certifications: CompTIA Security (+50%) and CompTIA CySA+ (+59%). There’s plenty of security risks for business executives, sysadmins, DBAs, developers, etc., to be wary of.</li>
+</ul>
+<figure class="center"><img src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/02/1-top-search-terms.png" alt="Normalized search frequency of top terms on the O’Reilly online learning platform in 2019 (left) and the rate of change for each term (right)."><figcaption>Figure 1 (above). Normalized search frequency of top terms on the O’Reilly online learning platform in 2019 (left) and the rate of change for each term (right).</figcaption></figure>
+<figure class="center"><img src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/02/2-high-level-topic-usage-e1581084720697.png" alt="High-level topics on the O’Reilly online learning platform with the most usage in 2019 (left) and the rate of change for each topic (right)."><figcaption>Figure 2. High-level topics on the O’Reilly online learning platform with the most usage in 2019 (left) and the rate of change for each topic (right).</figcaption></figure>
+<h2>In programming, Python is preeminent</h2>
+<p>In 2019, as in 2018, Python was the most popular language on O’Reilly online learning. Python-related usage grew at a solid 6% pace in 2019, a slight drop from 2018 (+10%). After several years of steady climbing—and after outstripping Java in 2017—Python-related interactions now comprise almost 10% of all usage.</p>
+<p>But Python is a special case: this year, more than in year’s past, its growth was buoyed by interest in ML. Usage specific to Python as a programming language grew by just 4% in 2019; by contrast, usage that had to do with Python and ML—be it in the context of AI, deep learning, and natural language processing, or in combination with any of several popular ML/AI frameworks—grew by 9%. The laggard use case was Python-based web development frameworks, which grew by just 3% in usage, year over year.</p>
+<figure class="center"><img src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/02/3-top-languages-search.png" alt="Normalized search frequency of top programming languages on the O’Reilly online learning platform in 2019 (left) and the rate of change for each language (right)."><figcaption>Figure 3 (above). Normalized search frequency of top programming languages on the O’Reilly online learning platform in 2019 (left) and the rate of change for each language (right).</figcaption></figure>
+<figure class="center"><img src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/02/4-top-languages-usage.png" alt="Programming languages on the O’Reilly online learning platform with the most usage in 2019 (left) and the rate of change for each language (right)."><figcaption>Figure 4. Programming languages on the O’Reilly online learning platform with the most usage in 2019 (left) and the rate of change for each language (right).</figcaption></figure>
+<p>This is consistent with <a href="https://www.oreilly.com/radar/whats-driving-open-source-software-in-2019/">what we’ve observed elsewhere</a>: Python has acquired new relevance amid strong interest in AI and ML. Along with <a href="https://en.wikipedia.org/wiki/R_(programming_language)">R</a>, Python is one of the most-used languages for data analysis. From pre-built libraries for linear or logistic regressions, decision trees, naïve Bayes, k-means, gradient-boosting, etc., there’s a Python library for virtually anything a developer or data scientist might need to do. (Python libraries are no less useful for manipulating or engineering data, too.)</p>
+<p>Interestingly, <a href="https://trends.google.com/trends/explore?date=all&amp;geo=US&amp;q=%2Fm%2F0212jm">R itself continues to decline</a>. R-related usage on O’Reilly online learning fell by 8% between 2017-18 and by 6%, year-over-year, in 2019. It’s likely that R—much like Scala (-33% in usage in 2018-19; -19% in usage 2017-18)—is a casualty of Python. True, it might seem difficult to reconcile R’s decline with strong interest in AI and ML, but consider two factors: first, ML and statistics are not the same thing, and, second, R is not, primarily, a developer-oriented language. R was designed for use in academic, scientific, and, more recently, commercial use cases. As statistics and related techniques become more important in software development, more programmers are encountering stats in programming classes. In this context, they’re more likely to use Python than R.</p>
+<p>Interest in some languages seems to be trending up, and interest in others, down. Exhibit A: Java-related usage dropped by a noteworthy 13% between 2018 and 2019. Is this the harbinger of a trend? Not necessarily: Java-related searches increased by 5% between 2017 and 2018. On the other hand, Java’s cousin, JavaScript, also appears to be in decline. True, theirs is only a conceptual relation, but interest in JavaScript, too, <a href="https://trends.google.com/trends/explore?date=all&amp;geo=US&amp;q=%2Fm%2F02p97">really does seem to be waning</a>: JS-related usage dropped on O’Reilly online learning by 4% between 2017-2018 and by 7% between 2018-19. It’s possible that microservices architecture is hastening the move to other languages (such as Go, Rust, and Python) for web properties.</p>
+<p>Among the JavaScript-based web application frameworks, React gained in popularity (+4% in usage) as Angular (-12% in usage) slipped between 2018 and 2019. Vue.js—a competitor to both React and Angular—settled down to steady growth (+8% in usage) in 2018-19, after almost doubling in usage (+97%) between 2017-18.</p>
+<p id="F2">One possible trend-in-the-making is that of a slowing Go, which—following several years of rapid growth in usage (including +14% from 2017 to 2018)—cooled down last year, with usage growing by a mere 2%. But Go is now the sixth most-used programming language, trailing only Python, Java, .NET, and C++. Drop .NET from the tally on methodological grounds<a href="#_ftn2"><sup>[2]</sup></a>, and Go cracks the top five.</p>
+<h2>Trends in software architecture, infrastructure, and operations</h2>
+<p><a href="https://www.oreilly.com/radar/how-companies-adopt-and-apply-cloud-native-infrastructure/">Cloud native</a><a href="https://www.oreilly.com/radar/how-companies-adopt-and-apply-cloud-native-infrastructure/"> design</a> is a new way of thinking about software and architecture. But the shift to cloud native has implications not only for <a href="https://www.oreilly.com/radar/the-topics-to-watch-in-software-architecture/">software architecture</a><u>,</u> but for <a href="https://conferences.oreilly.com/infrastructure-ops/io-ca">infrastructure and operations</a>, too. It exploits new design patterns (microservices) and adapts existing techniques (service orchestration) with the goal of achieving cloud-like elasticity and resilience in <em>all</em> environments, cloud or on-premises. O’Reilly Radar uses the term “<a href="https://www.oreilly.com/radar/what-is-next-architecture/">Next Architecture</a><u>”</u> to describe this shift.</p>
+<p>It’s against this backdrop that what’s happening in both software architecture and infrastructure and ops must be understood. In the generic software architecture topic, usage in the containers topic increased in our 2019 analysis, growing by 17%. This was just a fraction of its 2018 growth rate (+56% in usage), but impressive nonetheless. Kubernetes has emerged as the <em>de facto</em> solution for orchestrating services and microservices in cloud native design patterns. Usage in Kubernetes surged by 211% in 2018—and grew at a 40% clip in 2019. Kubernetes’ parent topic, container orchestrators, also posted strong usage growth: 151% in 2018, 36% this year—almost all due to interest in Kubernetes itself.</p>
+<figure class="center"><img src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/02/5-software-architecture-usage-e1581084431270.png" alt="Software architecture topics on the O’Reilly online learning platform with the most usage in 2019 (left) and the rate of change for each topic (right)."><figcaption>Figure 5. Software architecture topics on the O’Reilly online learning platform with the most usage in 2019 (left) and the rate of change for each topic (right).</figcaption></figure>
+<p>This also helps explain increased usage in the microservices topic, which grew at a 22% clip in 2019. True, you don’t necessarily <em>need</em> microservices to “do” cloud native design; at this point, however, it’s difficult to disentangle the two. Most cloud native design patterns involve microservices.</p>
+<p>These trends are also implicated in the rise of infrastructure and ops, which reflects both the limitations of DevOps and the challenges posed by the shift to cloud native design. Infrastructure and ops usage was the fastest growing sub-topic under the generic systems administration topic. Surging interest in infrastructure and ops also explains declining usage in the configuration management (CM) and DevOps topic areas. The most popular CM tools are DevOps focused, and, like DevOps itself, they’re declining: usage in the CM topic dropped significantly (-18%) in 2019, as did virtually all CM tools. Ansible was least affected (-4% in usage), but Jenkins, Puppet, Chef, and Salt each dropped off by 25% or more in usage. It can’t be a coincidence that DevOps usage declined again (-5%) in 2019, following a 20% decline in 2018.</p>
+<figure class="center"><img src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/02/6-infrastructure-ops-usage-e1581084489821.png" alt="Infrastructure and operations topics on the O’Reilly online learning platform with the most usage in 2019 (left) and the rate of change for each topic (right)."><figcaption>Figure 6. Infrastructure and operations topics on the O’Reilly online learning platform with the most usage in 2019 (left) and the rate of change for each topic (right).</figcaption></figure>
+<p>The emergence of infrastructure and ops suggests that organizations might be having trouble <em>scaling</em> DevOps. DevOps aims to produce programmers who can work competently in each of the layers in a system “<a href="https://www.facebook.com/note.php?note_id=461505383919">stack</a>.” In practice, however, developers tend to be less committed to DevOps’ operations component, a fact that gave birth to the idea of <a href="https://en.wikipedia.org/wiki/Site_Reliability_Engineering">site reliability engineering</a> (SRE). Even if the “full stack” developer isn’t a unicorn, she certainly isn’t commonplace. Organizations see infrastructure and ops as a pragmatic, ops-focused complement that picks up precisely where DevOps tends to fail.</p>
+<h2>A drill-down into data, AI, and ML topics</h2>
+<p>The results for data-related topics are both predictable and—there’s no other way to put it—confusing. Starting with data engineering, the backbone of all data work (the category includes titles covering data management, i.e., relational databases, Spark, Hadoop, SQL, NoSQL, etc.). In aggregate, data engineering usage declined 8% in 2019. This follows a 3% drop in 2018. Both years were driven by declining usage of data management titles.</p>
+<p>When we look more specifically at data engineering topics, <em>excluding</em> data management, we see a small share, but solid growth in usage, up 7% in 2018 and 15% in 2019 (see Figure 7).</p>
+<p>Within the broad “data” topic, data engineering (including data management) continues as the topic with the most share, garnering about one-twelfth of all usage on the platform. This is almost double the usage share of the data science topic, which recorded an uptick in usage (+5%) in 2019, following a decline (-2%) in 2018.</p>
+<p>Elsewhere, interest in ML and AI keeps growing, albeit at a diminished rate. To wit: the combined ML/AI topic was up 7% in usage in 2019, about half its growth (+13%) in 2018.</p>
+<figure class="center"><img src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/02/7-data-usage-e1581084542209.png" alt="Data topics on the O’Reilly online learning platform with the most usage in 2019 (left) and the rate of change for each topic (right)."><figcaption>Figure 7. Data topics on the O’Reilly online learning platform with the most usage in 2019 (left) and the rate of change for each topic (right).</figcaption></figure>
+<p>Ironically, the strength of ML/AI might be less evident in data-specific topics than in other topic areas, such as programming languages, where growing Python usage is—to a large degree—being driven by that language’s usefulness for and applicability to ML. But ML/AI-related topics such as natural language processing (NLP, +22% in 2019) and neural networks (+17%) recorded strong growth in usage, too.</p>
+<p id="F3">Data engineering <em>as a task</em> certainly isn’t in decline. Interest in data engineering probably isn’t declining, either. If anything, data engineering <em>as a practice area</em> is being subsumed by both data science and ML/AI<a href="#_ftn3"><sup>[3]</sup></a>. We know from <a href="https://www.oreilly.com/radar/the-state-of-data-quality-in-2020/">other research</a> that data scientists, ML and AI engineers, etc., spend an outsized proportion of their time discovering, preparing, and engineering data for their work. We’ve seen that popular tools and frameworks usually incorporate data engineering capabilities, either in the form of automated/guided self-service features or (in the case of Jupyter and other notebooks) an ability to build and orchestrate data engineering pipelines that invoke Python, R (via Python), etc., libraries to run data engineering jobs concurrently or, if possible, in parallel.</p>
+<p>Terms that correspond with old-school data engineering—e.g., “relational database,” “Oracle database solutions,” “Hive,” “database administration,” “data models,” “Spark”—declined in usage, year-over-year, in 2019. Some of this decline was a function of larger, market-driven factors. We know from our research that Hadoop and its ecosystem of related projects (such as Hive) <a href="https://www.oreilly.com/radar/topics-to-watch-at-the-strata-data-conference-in-new-york-2019/">are in the midst of a protracted, years-long decline</a>. This decline is borne out in our usage numbers: Hadoop (-34%), Hive (also -34%), and even Spark (-21%) were all down, significantly, year-over-year.</p>
+<p>We discuss likely reasons for this decline in more detail <a href="https://www.oreilly.com/radar/topics-to-watch-at-the-strata-data-conference-in-new-york-2019/">in our analysis of O’Reilly Strata Conference speaker proposals</a>.</p>
+<h2>Cloud continuing to climb</h2>
+<p>Interest in cloud-related concepts and terms continues to increase on O’Reilly online learning, albeit at a slower rate. Cloud-related usage surged by 35% between 2017 and 2018; it grew at less than half that rate (17%) between 2018 and 2019. This slowdown suggests that cloud as a category has achieved such a large share that (mathematically) any additional growth <em>must</em> occur at a slower rate. In cloud’s case, while growth is slower, it’s still strong.</p>
+<figure class="center"><img src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2020/02/8-cloud-usage-e1581084605868.png" alt="Cloud topics on the O’Reilly online learning platform with the most usage in 2019 (left) and the rate of change for each topic (right)."><figcaption>Figure 8. Cloud topics on the O’Reilly online learning platform with the most usage in 2019 (left) and the rate of change for each topic (right).</figcaption></figure>
+<p>Interest in cloud service provider platforms mirrors that of the industry as a whole: Amazon and AWS-related usage increased by 14%, year-over-year; Azure usage, on the other hand, grew at a speedier 29% clip, while Google Compute Platform (GCP) surged by 39%. Amazon controls a little less than half (<a href="https://www.gartner.com/en/newsroom/press-releases/2019-07-29-gartner-says-worldwide-iaas-public-cloud-services-market-grew-31point3-percent-in-2018">per Gartner’s 2018 numbers</a>) of the overall market for cloud infrastructure-as-a-service (IaaS) offerings. It, too, has reached the point at which rapid growth becomes mathematically prohibitive. Both Azure and GCP are growing much faster than AWS, but they’re also much smaller: Azure notched nearly 61% growth in 2018 (per Gartner), good for more than 15% of the IaaS market; GCP, at around 60% growth, accounts for 4% of IaaS share.</p>
+<p>Also intriguing: cloud-specific interest in microservices and <a href="https://en.wikipedia.org/wiki/Kubernetes">Kubernetes</a> grew significantly last year on O’Reilly. Microservices-related usage was up 22%, year over year, following a decline in 2018. Kubernetes usage was up by 38%, year over year, following a period of explosive growth (+190%) from 2017 to 2018. Both trends mirror what we’re seeing via user surveys and other <a href="https://www.oreilly.com/radar/tag/research/">research efforts</a>: namely, that microservices has emerged as an important component of cloud native design and development.</p>
+<p>The bigger takeaway is that the essential tendency of modern software architecture—namely, the priority it gives to loose coupling in emphasizing abstraction, isolation, and atomicity—is eliding the boundaries between what we think of as “cloud” versus “on-premises” contexts. We see this via sustained interest in microservices and Kubernetes in both on-premises <em>and</em> cloud deployments.</p>
+<p>This is the logic of cloud native design: specific deployment contexts will still matter, of course—which features or constraints do developers need to take into account when they’re developing for AWS? For Azure? For GCP? But the clear boundaries that used to demarcate the public cloud from the private cloud are starting to disappear, just as those that distinguish on-premises private clouds from conventional on-premises systems are falling away, too.</p>
+<h2>Surging interest in security</h2>
+<p>Security usage (+26%) grew significantly in 2019 (see Figure 2). Some of this was driven by increased usage in the CompTIA Security+ (50%) and CompTIA Cyber Security Analyst (CySA+, 59%) topics.</p>
+<p>Security+ is an entry-level security certification, so its growth could be attributed to increased usage by sysadmins, DBAs, software developers, and other non-specialists. Whether it’s to flesh out their full-stack bona fides, address new job (or <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-181.pdf?trackDocs=NIST.SP.800-181.pdf">regulatory</a>) requirements, or simply to make themselves more marketable, Security+ is a pretty straightforward certification process: pass the exam and you’re certified. CySA+, on the other hand, is relatively new. This <em>could</em> explain the explosion of CySA+-related usage in 2018 (+128%), as well as last year’s strong growth. Unlike <a href="https://en.wikipedia.org/wiki/List_of_computer_security_certifications">the CISSP and other popular certifications</a>, CySA+ recommends, but doesn’t require, real-world experience. Like Security+, it’s another certification sys admins, DBAs, developers, and others can pick up to burnish their bona fides.</p>
+<p>Certifications weren’t the only thing driving security-related usage on O’Reilly in 2019. A rash of vulnerabilities and potential exploits, too, had some impact. If 2018 (+5% growth in security usage; +22% growth in search) gave us <a href="https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability)">Meltdown</a> and <a href="https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)">Spectre</a>, 2019 gave us sobering information about <a href="https://www.pandasecurity.com/mediacenter/security/spectre-making-comeback-processors/">the far-reaching </a><a href="https://www.pandasecurity.com/mediacenter/security/spectre-making-comeback-processors/"><em>implications</em></a><a href="https://www.pandasecurity.com/mediacenter/security/spectre-making-comeback-processors/"> of Meltdown</a> and, <a href="https://www.technologyreview.com/s/612989/chips-may-be-inherently-vulnerable-to-spectre-and-meltdown-attacks/">especially, Spectre</a>. For 2019, security-specific usage (+26%) and search (+25%) increased accordingly. System and database administrators, CSAs, CISSPs, and others were keen to acquire expert, detailed information specific to patching and hardening their vulnerable systems to protect against <a href="https://arxiv.org/pdf/1811.05441.pdf">no less than 13 different Spectre and 14 different Meltdown variants</a>, as well as to mitigate <a href="https://www.phoronix.com/scan.php?page=article&amp;item=spec-melt-8way&amp;num=1">the potentially huge performance impacts associated with these patches</a>. Developers and software architects had questions about rewriting, refactoring, or optimizing their code to address these same concerns. Against this backdrop, the spike in security-related usage makes sense.</p>
+<p>There was a great deal going on with respect to information security and data privacy, too. After all, not only was 2019 the first full year for which the EU’s omnibus GDPR regime was binding, but—as of January 1, 2019—updates to Canada’s GDPR-like PIPEDA regime officially kicked in, too. The sweeping <a href="https://en.wikipedia.org/wiki/California_Consumer_Privacy_Act">California Consumer Privacy Act</a> (CCPA), which has been called California’s GDPR, went into effect on January 1, &nbsp;2020.</p>
+<p>Taken together, an analysis of these trends seems to support a glass-half-full assessment of the state of security today. If the sustained growth in security usage on O’Reilly is a reliable indicator, it’s <em>possible</em> that security may, finally, be getting the attention it deserves in an increasingly digital world. It&#8217;s <em>possible</em> that organizations have accepted that the financial and reputational penalties entailed by a data breach or high-profile hack are just too costly to risk, and that money spent on information security is, on balance, money well spent.</p>
+<p>The same analysis also lends itself to a glass-half-empty assessment, however: namely, that security spending is cyclical; that a confluence of circumstances has helped to boost security spending; and that—let’s be honest—<a href="https://www.varonis.com/blog/company-reputation-after-a-data-breach/">organizations tend to bounce back from high-profile security incidents</a>. Only time (or future installments of this survey) will tell.</p>
+<h2>Concluding thoughts</h2>
+<p>It’s hard to imagine that the hottest trends of 2019 won’t be reprising their roles, in more or less the same pecking order, in next year’s analysis. Programming languages come into and go out of vogue, but Python appears poised to keep growing at a steady rate because it’s at once protean, adaptable, and easy to use. We see this in the widespread use of Python in ML and AI, where it has supplanted R as the <em>lingua franca</em> of data engineering and analysis.</p>
+<p>The same is true of ML and AI. Even if (as some naysayers warn) the next <a href="https://en.wikipedia.org/wiki/AI_winter">AI winter</a> <a href="https://www.ft.com/content/47111fce-d0a4-11e8-9a3c-5d5eac8f1ab4">is nigh upon us</a>, it’s hard to imagine interest in ML and AI petering out anytime soon. The same could be said about trends in software architecture and, especially, infrastructure and operations. They’re each sites of ceaseless innovation. Their practitioners will be hard-pressed to keep up with what’s happening.</p>
+<p>It’s helpful to think of what’s hot and what’s not in terms of a modified “<a href="https://en.wikipedia.org/wiki/Overton_window">Overton Window</a>.” The Overton Window circumscribes the <em>human cognitive bandwidth</em> that’s available in a certain place at a certain time. No combination of policies—or issues, or trends—can exceed more than 100% of available bandwidth. This is true, to a degree, of the activity on O’Reilly online learning, too. A decline in usage doesn’t have to correlate with a decline in use (or usefulness) in practice. It’s just being crowded out by other, emergent trends.</p>
+<p>This also underscores why the decline in a bellwether topic such as JavaScript might be hugely significant. Even if these topics are no longer sites of rapid and sustained innovation, they are likewise important for day-to-day use cases, especially with respect to general-purpose information-gathering or more specialized problem solving. It isn’t that JavaScript is less important than it used to be; after all, React, Angular, and Vue.js are sites of development and innovation, and all three are based on JavaScript. It’s that we’re coming to understand and relate to JavaScript—or data engineering, or Docker, or DevOps and change management—in a different way. We’re appropriating them differently.</p>
+<p>It’s this difference that Radar aims to capture. Not the change that’s obvious for everyone to see, but the coalescence of change itself as it’s happening.</p>
+<hr>
+<aside data-type="sidebar">
+<p id="_ftn1"><a href="#F1"><sup>[1]</sup></a> This article is based on non-personally-identifiable information about the top search terms and most-used topics on O’Reilly online learning. We compared aggregated data for the last three years; a full year of data for 2017 and 2018, and through the end of October for 2019.</p>
+<p id="_ftn2"><a href="#F2"><sup>[2]</sup></a> A reasonable enough decision. .NET isn’t so much a language as a software framework: i.e., a superset of C# and a few related languages, including Visual Basic .NET, J#, and, C++/CLI, the latter of which is a .NET-specific implementation of C++.</p>
+<p id="_ftn3"><a href="#F3"><sup>[3]</sup></a> ML and AI aren’t in any sense the same thing, either. We combine them here for simplicity’s sake.</p>
+</aside>
+]]></content:encoded>
+							<wfw:commentRss>https://www.oreilly.com/radar/oreilly-2020-platform-analysis/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>AI meets operations</title>
+		<link>https://www.oreilly.com/radar/ai-meets-operations/</link>
+				<comments>https://www.oreilly.com/radar/ai-meets-operations/#respond</comments>
+				<pubDate>Mon, 03 Feb 2020 05:01:00 +0000</pubDate>
+		<dc:creator><![CDATA[Mike Loukides]]></dc:creator>
+				<category><![CDATA[Innovation & Disruption]]></category>
+		<category><![CDATA[Next Architecture]]></category>
+		<category><![CDATA[Radar Column]]></category>
+		<category><![CDATA[Commentary]]></category>
+
+		<guid isPermaLink="false">https://www.oreilly.com/radar/?p=11603</guid>
+				<description><![CDATA[One of the biggest challenges operations groups will face over the coming year will be learning how to support AI- and ML-based applications. On one hand, ops groups are in a good position to do this; they&#8217;re already heavily invested in testing, monitoring, version control, reproducibility, and automation. On the other hand, they will have [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>One of the biggest challenges operations groups will face over the coming year will be learning how to support AI- and ML-based applications. On one hand, ops groups are in a good position to do this; they&#8217;re already heavily invested in testing, monitoring, version control, reproducibility, and automation. On the other hand, they will have to learn a lot about how AI applications work and what&#8217;s needed to support them. There&#8217;s a lot more to AI Operations than Kubernetes and Docker. The operations community has the right language, and that&#8217;s a great start; I do <em>not</em> mean that in a dismissive sense. But on inspection, AI stretches the meanings of those terms in important but unfamiliar directions.</p>
+<p>Three things need to be understood about AI.</p>
+<p>First, the behavior of an AI application depends on a <em>model</em>, which is built from source code and <em>training data</em>. A model isn’t source code, and it isn’t data; it’s an artifact built from the two. Source code is relatively less important compared to typical applications; the training data is what determines how the model behaves, and the training process is all about tweaking parameters in the application so that it delivers correct results most of the time.</p>
+<p>This means that, to have a history of how an application was developed, you have to look at more than the source code. You need a repository for models and for the training data. There are many tools for managing source code, from git back to the venerable SCCS, but we&#8217;re only starting to build tools for <a href="https://dvc.org/">data versioning</a>. And that&#8217;s essential: if you need to understand how your model behaves, and you don&#8217;t have the training data, you&#8217;re sunk. The same is true for the models themselves; if you don&#8217;t have the artifacts you produced, you won&#8217;t be able to make statements about how they performed. Given source code and the training data, you could re-produce a model, but it almost certainly wouldn&#8217;t be the same because of randomization in the training process.</p>
+<p>Second, the behavior of AI systems changes over time. Unlike a web application, they aren&#8217;t strictly dependent on the source. Models almost certainly react to incoming data; that&#8217;s their point. They may be retrained automatically. They almost certainly grow stale over time: users change the way they behave (often, the model is responsible for that change) and grow outdated.</p>
+<p>This changes what we mean by &#8220;monitoring.&#8221; AI applications need to be monitored for staleness—whatever that might mean for your particular application. They also need to be monitored for fairness and bias, which can certainly creep in after deployment. And these results are inherently statistical. You need to collect a large number of data points to tell that a model has grown stale. It&#8217;s not like pinging a server to see if it&#8217;s down; it&#8217;s more like analyzing long-term trends in response time. We have the tools for that analysis; we just need to learn how to re-deploy them around issues like fairness.</p>
+<p>We should also ask what &#8220;observability&#8221; means in a context where even &#8220;explainability&#8221; is always an issue. Is it important to observe what happens on each layer of a neural network? I don&#8217;t know, but that&#8217;s a question that certainly needs answering. Charity Majors&#8217; emphasis on <a href="https://thenewstack.io/observability-a-3-year-retrospective/">cardinality</a> and inferring the internal states of a system from its outputs is certainly the right direction in which to be looking, but in AI systems, the number of internal states grows by many, many orders of magnitude.</p>
+<p>Last, and maybe most important: AI applications are, above all, probabilistic. Given the same inputs, they don&#8217;t necessarily return the same results each time. This has important implications for testing. We can do unit testing, integration testing, and acceptance testing—but we have to acknowledge that AI is not a world in which testing whether 2 == 1+1 counts for much. And conversely, if you need software with that kind of accuracy (for example, a billing application), you shouldn&#8217;t be using AI. In the last two decades, a tremendous amount of work has been done on testing and building test suites. Now, it looks like that&#8217;s just a start. How do we test software whose behavior is fundamentally probabilistic? We will need to learn.</p>
+<p>That’s the basics. There are other issues lurking. Collaboration between AI developers and operations teams will lead to growing pains on both sides, especially since many data scientists and AI researchers have had limited exposure to, or knowledge of, software engineering. The creation and management of data pipelines isn’t something that operations groups are responsible for–though, despite the proliferation of new titles like “data engineer” and “data ops,” in the future I suspect these jobs will be subsumed into “operations.”</p>
+<p>It’s going to be an interesting few years as operations assimilates AI. The operations community is asking the right questions; we&#8217;ll learn the right answers.</p>
+<hr>
+<h2>Upcoming events</h2>
+<p><a href="https://www.oreilly.com/conferences">O’Reilly conferences</a> combine expert insights from industry leaders with hands-on guidance about today’s most important technology topics.</p>
+<p>We hope you’ll join us at our upcoming events:</p>
+<p><a href="https://conferences.oreilly.com/software-architecture/sa-ny">O’Reilly Software Architecture Conference</a>, New York, February 23-26</p>
+<p><a href="https://conferences.oreilly.com/strata-data-ai/stai-ca">O’Reilly Strata Data &amp; AI Conference</a>, San Jose, March 15-18</p>
+<p><a href="https://oreilly.formulated.by/scme-phoenix-2020/">Smart Cities &amp; Mobility Ecosystems Conference</a>, Phoenix, April 15-16</p>
+]]></content:encoded>
+							<wfw:commentRss>https://www.oreilly.com/radar/ai-meets-operations/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>O&#8217;Reilly serverless survey 2019: Concerns, what works, and what to expect</title>
+		<link>https://www.oreilly.com/radar/oreilly-serverless-survey-2019-concerns-what-works-and-what-to-expect/</link>
+				<comments>https://www.oreilly.com/radar/oreilly-serverless-survey-2019-concerns-what-works-and-what-to-expect/#respond</comments>
+				<pubDate>Tue, 12 Nov 2019 12:00:41 +0000</pubDate>
+		<dc:creator><![CDATA[Roger Magoulas and Chris Guzikowski]]></dc:creator>
+				<category><![CDATA[Next Architecture]]></category>
+		<category><![CDATA[Research]]></category>
+
+		<guid isPermaLink="false">https://www.oreilly.com/radar/?p=9819</guid>
+				<description><![CDATA[For the inaugural O’Reilly survey on serverless architecture adoption, we were pleasantly surprised at the high level of response: more than 1,500 respondents from a wide range of locations, companies, and industries participated. The high response rate tells us that serverless is garnering significant mindshare in the community.1 Key findings from the survey include: 40% [&#8230;]]]></description>
+								<content:encoded><![CDATA[
+<p><p id="F1">For the inaugural O’Reilly survey on serverless architecture adoption, we were pleasantly surprised at the high level of response: more than 1,500 respondents from a wide range of locations, companies, and industries participated. The high response rate tells us that serverless is garnering significant mindshare in the community.<a href="#_ftn1"><sup>1</sup></a></p>
+
+
+
+<p>Key findings from the survey include:</p>
+
+
+
+<ul><li>40% of respondents work at organizations that have adopted serverless architecture in some form or another. Reduced operational costs and automatic scaling are the top serverless benefits cited by this group.</li><li>Of the 60% of respondents whose companies haven&#8217;t adopted serverless, the leading concerns about the paradigm are security and fear of the unknown.</li><li>About 50% of respondents who adopted serverless three-plus years ago consider their implementations successful or extremely successful, a contrast to the 35% of those adopting serverless a year or less ago experiencing a successful or extremely successful implementation—a gap that suggests serverless experience pays off.</li><li>Respondents who have implemented serverless made custom tooling the top tool choice—implying that vendors’ tools may not fully address what organizations need to deploy and manage a serverless infrastructure.</li></ul>
+
+
+
+<p>In our analysis, we assigned experience levels to our respondents for some of the survey questions. New respondents work at organizations that have tried serverless for less than one year. Early respondents’ organizations have employed serverless for one to three years. Sophisticated respondents work at organizations that have been using serverless for more than three years.</p>
+
+
+
+<h2>What respondents do and where they work</h2>
+
+
+
+<figure class="wp-block-image"><img src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure1-e1570028458892-1048x647.png" alt="Serverless Survey figure 1" class="wp-image-9803" srcset="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure1-e1570028458892-1048x647.png 1048w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure1-e1570028458892-300x185.png 300w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure1-e1570028458892-768x474.png 768w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure1-e1570028458892.png 1400w" sizes="(max-width: 1048px) 100vw, 1048px" /><figcaption>Figure 1. Roles of survey respondents.</figcaption></figure>
+
+
+
+<p>Looking at the role distribution among respondents, we see that those exploring and using the serverless paradigm are not confined to a single role. We suspect this points to a general drift toward software teams taking more responsibility for infrastructure, and increasingly, enabled by serverless options.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure2-1048x711.png" alt="Serverless Survey figure 2" class="wp-image-9804" srcset="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure2-1048x711.png 1048w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure2-300x204.png 300w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure2-768x521.png 768w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure2.png 1400w" sizes="(max-width: 1048px) 100vw, 1048px" /><figcaption>Figure 2. Industries of survey respondents.</figcaption></figure>
+
+
+
+<p>More than a fifth of the respondents work in the software industry—skewing results toward the concerns of software companies, and helping explain the preponderance of those with software engineering roles.</p>
+
+
+
+<p>Finance and banking, the vertical with the second highest share of respondents, may include the growing number of fintech startups that, with no burden of legacy infrastructure, could be more open to evaluating serverless over traditional options.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure3-e1570027869378-1048x566.png" alt="Serverless Survey figure 3" class="wp-image-9805" srcset="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure3-e1570027869378-1048x566.png 1048w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure3-e1570027869378-300x162.png 300w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure3-e1570027869378-768x415.png 768w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure3-e1570027869378.png 1400w" sizes="(max-width: 1048px) 100vw, 1048px" /><figcaption>Figure 3. Organization size of survey respondents.</figcaption></figure>
+
+
+
+<p>About two-thirds of survey respondents work in companies of 100+ employees. Around one in five work at companies of 10,000 or more employees. This means the types of companies considering or adopting serverless are not just tiny startups with little technical debt or overhead, but large companies as well.</p>
+
+
+
+<h2>How organizations view their adoption of serverless</h2>
+
+
+
+<figure class="wp-block-image"><img src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure4-1048x711.png" alt="Serverless Survey figure 4" class="wp-image-9806" srcset="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure4-1048x711.png 1048w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure4-300x204.png 300w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure4-768x521.png 768w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure4.png 1400w" sizes="(max-width: 1048px) 100vw, 1048px" /><figcaption>Figure 4. Serverless adoption among survey respondents’ organizations.</figcaption></figure>
+
+
+
+<p>When we asked if respondents’ organizations had adopted serverless (defining “adopted” as entering into a contract with a vendor to provide serverless resources), we expected a low take rate for this relatively new and developing technology. Interestingly, a higher-than-expected 40% of respondents said they had adopted serverless.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure5-e1570028078976-1048x516.png" alt="Serverless Survey figure 5" class="wp-image-9807" srcset="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure5-e1570028078976-1048x516.png 1048w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure5-e1570028078976-300x148.png 300w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure5-e1570028078976-768x378.png 768w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure5-e1570028078976.png 1400w" sizes="(max-width: 1048px) 100vw, 1048px" /><figcaption>Figure 5. Serverless adoption history among survey respondents’ organizations.</figcaption></figure>
+
+
+
+<p>Of those respondents whose organizations have adopted serverless, more than 50% made the jump one to three years ago, and 15% adopted serverless more than three years ago. Given that Amazon’s AWS Lambda functions are only five years old this November, anyone with more than three years of experience is a very early adopter.</p>
+
+
+
+<p>Approximately 30% of respondents have adopted serverless within the past year, and that is less than the over 50% who adopted serverless between one and three years ago. The gap may be due to respondents from major software companies and other technology-focused industries having explored serverless as an infrastructure option in its early days, and these organizations are historically faster to experiment with and adopt emerging paradigms.</p>
+
+
+
+<p>A related point: the rise of the serverless paradigm coincides with what we’ve referred to elsewhere as &#8220;<a href="https://www.oreilly.com/radar/what-is-next-architecture/">Next Architecture</a>.&#8221; As the uncommitted respondents (again, 60%) grapple with issues surrounding the main components of Next Architecture—decomposition, containers, the cloud, and orchestration—serverless adoption would seem poised for considerable growth in the next 12 to 18 months.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure6-1048x711.png" alt="Serverless Survey figure 6" class="wp-image-9808" srcset="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure6-1048x711.png 1048w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure6-300x204.png 300w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure6-768x521.png 768w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure6.png 1400w" sizes="(max-width: 1048px) 100vw, 1048px" /><figcaption>Figure 6. Rating of success of serverless adoption among survey respondents.</figcaption></figure>
+
+
+
+<p>More than two-thirds of respondents deemed their organizations’ adoption of serverless at least “mostly successful.” That overall pattern of success, at least for those respondents, shows that serverless has moved beyond a fad to become a substantive and viable infrastructure option. Stories of serverless success can help motivate non-adopters to more intensely evaluate how serverless might fit their infrastructure needs—the early adopters blazing a trail for those in more cautious organizations. We expect growing momentum for serverless, even as the challenges associated with adoption become more clear.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure7-e1570028180666-1048x550.png" alt="Serverless Survey figure 7" class="wp-image-9809" srcset="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure7-e1570028180666-1048x550.png 1048w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure7-e1570028180666-300x158.png 300w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure7-e1570028180666-768x403.png 768w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure7-e1570028180666.png 1400w" sizes="(max-width: 1048px) 100vw, 1048px" /><figcaption>Figure 7. Success rating of serverless adoption among survey respondents, broken down by serverless experience level.</figcaption></figure>
+
+
+
+<p>The chart packs in a lot of data. A quick summary reveals that sophisticated respondents—i.e., those with three-plus years of serverless experience—show 79% mostly successful or better (17% extremely successful; 34% successful; 28% mostly successful); those early to serverless, i.e., with one-to-three years of experience, show 75% mostly successful or better (9% extremely successful; 32% successful, 34% mostly successful); and those new to the topic with less than a year of experience rate their implementations mostly successful or better 52% of the time (6% extremely successful, 29% successful, 17% mostly successful).</p>
+
+
+
+<p>The contrast between organizations with the most and least time with serverless shows that experience appears to pay off. Serverless requires time and experience to resolve the tooling, data protection, and operational challenges that adopting serverless creates.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure8-e1570028252480-1048x613.png" alt="Serverless Survey figure 8" class="wp-image-9810" srcset="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure8-e1570028252480-1048x613.png 1048w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure8-e1570028252480-300x176.png 300w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure8-e1570028252480-768x449.png 768w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure8-e1570028252480.png 1400w" sizes="(max-width: 1048px) 100vw, 1048px" /><figcaption>Figure 8. Serverless benefits among survey respondents.</figcaption></figure>
+
+
+
+<p>When asked about the benefits of adopting serverless, there were some stand-out issues. “Reduction of operational costs” was the No. 1 reported benefit. Rather than buying racks and racks of servers that need to handle the maximum potential traffic and be idle most of the time, it seems that serverless’ method of paying by compute is proving to be beneficial to the bottom lines of organizations.</p>
+
+
+
+<p>This likely goes hand-in-hand with the second most popular reason for adoption: “scales with demand automatically.” Instead of planning for average or maximum usage, you can deploy serverless and it will scale to current usage. You only pay for what is used. This scaling takes away the worry from random and unexpected traffic spikes or big seasonal traffic.</p>
+
+
+
+<p>The third stand-out issue was “no server maintenance.” As noted earlier, the majority of survey respondents are software engineers. These are not system administrators whose job it is to worry about keeping software patched, secured, and managed. When those details are the responsibility of the serverless provider, a software engineer&#8217;s time is freed up to focus on a wider range of tasks and roles.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure9-e1570028308173-1048x540.png" alt="Serverless Survey figure 9" class="wp-image-9811" srcset="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure9-e1570028308173-1048x540.png 1048w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure9-e1570028308173-300x155.png 300w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure9-e1570028308173-768x396.png 768w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure9-e1570028308173.png 1400w" sizes="(max-width: 1048px) 100vw, 1048px" /><figcaption>Figure 9. Serverless benefits among survey respondents, broken down by serverless experience level.</figcaption></figure>
+
+
+
+<p>When we add experience level to the serverless benefit results (Figure 9), we see that “reduced engineering lead time” and “reduced development costs” were more significant benefits for companies that have been working with serverless for more than three years. This further reinforces that it takes time to start seeing significant cost benefits with serverless.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure10-1048x711.png" alt="Serverless Survey figure 10" class="wp-image-9812" srcset="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure10-1048x711.png 1048w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure10-300x204.png 300w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure10-768x521.png 768w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure10.png 1400w" sizes="(max-width: 1048px) 100vw, 1048px" /><figcaption>Figure 10. Serverless challenges faced by survey respondents’ organizations.</figcaption></figure>
+
+
+
+<p>“Educating current staff” was the No. 1 concern among respondents whose organizations have adopted serverless. That makes sense: with serverless being relatively young, formal training is difficult to find, specific documentation must be generated, and case studies to learn from—while growing—are harder to come by. In addition, organizations sometimes discover that success requires custom features. These features evolve quickly as vendors vigorously compete to attract and retain customers—making up-to-date formal training difficult to maintain.</p>
+
+
+
+<p>The second biggest challenge was “vendor lock-in.” Writing code for one vendor platform does not make it portable or simple to move elsewhere. Because serverless is a nascent space, it seems the market is waiting to see how the issue of portability among vendors plays out.</p>
+
+
+
+<p>“Integration/testing is harder” ranked as the third biggest worry, noted by 30% of respondents. Testing is more complex and labor intensive for serverless architectures, with more scenarios to address and different types of dependencies (e.g., latency, startup, mocking, etc.) changing the integration landscape—at least for now. We expect these testing issues to mostly resolve as serverless gains traction and new engineering practices that make testing easier emerge.</p>
+
+
+
+<h2>The teams and tools that manage serverless</h2>
+
+
+
+<figure class="wp-block-image"><img src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure11-1048x711.png" alt="Serverless Survey figure 11" class="wp-image-9813" srcset="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure11-1048x711.png 1048w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure11-300x204.png 300w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure11-768x521.png 768w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure11.png 1400w" sizes="(max-width: 1048px) 100vw, 1048px" /><figcaption>Figure 11. Teams that manage serverless in survey respondents’ organizations.</figcaption></figure>
+
+
+
+<p>DevOps and serverless seem a natural match, so it’s no surprise to see DevOps teams as the top choice among respondents for managing serverless implementations. Deploying containerized services on serverless architectures and orchestrating those services with Kubernetes fits into existing DeOps practices.</p>
+
+
+
+<p>That teams associated with software development hold the next three positions for managing serverless also makes sense. Serverless presents a conceptually simpler path to deploying software for those in development roles with no need to manage servers and storage. Not that serverless is simple: survey respondents note many challenges (see Figure 10), and those in software roles need to develop the chops required to deploy on serverless infrastructures—including knowing when those infrastructures are appropriate for their applications.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure12-1048x711.png" alt="Serverless Survey figure 12" class="wp-image-9814" srcset="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure12-1048x711.png 1048w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure12-300x204.png 300w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure12-768x521.png 768w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure12.png 1400w" sizes="(max-width: 1048px) 100vw, 1048px" /><figcaption>Figure 12. Serverless vendors used by survey respondents’ organizations.</figcaption></figure>
+
+
+
+<p>The results in Figure 12 reflect what we know of the cloud market and mirror what we found in our <a href="https://www.oreilly.com/ideas/how-companies-adopt-and-apply-cloud-native-infrastructure">cloud native survey</a> from earlier in 2019. Amazon’s early-to-market serverless offering and dominant market position has given them a functional leg up on their primary rivals in the cloud market. However, both Microsoft and Google have ramped up their own serverless offerings and likely retain whatever market differentiation they’ve already developed in the wider cloud market—i.e., customers who already like and use Azure or Google Cloud Platform are likely to find the same advantages hold with Azure Functions and Google Cloud Functions.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure13-1048x711.png" alt="Serverless Survey figure 13" class="wp-image-9815" srcset="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure13-1048x711.png 1048w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure13-300x204.png 300w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure13-768x521.png 768w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure13.png 1400w" sizes="(max-width: 1048px) 100vw, 1048px" /><figcaption>Figure 13. Serverless tools used by survey respondents’ organizations.</figcaption></figure>
+
+
+
+<p>“Custom tooling” ranked No. 1 in tools used. This could mean there’s a market for standardizing or improving existing tools, getting companies to either migrate away from their in-house tools, or to convince new customers to avoid spending the time to build something custom. It could also mean that current tools are not addressing everything needed to properly manage and deploy to serverless infrastructure.</p>
+
+
+
+<p>Another thing to consider is that respondents had the option of checking all the tools that apply. Custom tooling could simply be a shell script or cron job that is unique to a build process, but starts a chain of existing tools provided by various vendors.</p>
+
+
+
+<h2>Why companies haven&#8217;t adopted serverless</h2>
+
+
+
+<figure class="wp-block-image"><img src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure14-1048x711.png" alt="Serverless Survey figure 14" class="wp-image-9816" srcset="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure14-1048x711.png 1048w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure14-300x204.png 300w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure14-768x521.png 768w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure14.png 1400w" sizes="(max-width: 1048px) 100vw, 1048px" /><figcaption>Figure 14. Reasons why survey respondents’ organizations have not adopted serverless.</figcaption></figure>
+
+
+
+<p>Turning to the 60% of respondents whose organizations have not adopted serverless (Figure 4), they cited “security concerns” as the chief reason they have avoided serverless. Because we’re in an environment where security is a paramount concern, the adoption of any new technology carries a lot of weight. Moreover, serverless introduces a different paradigm for data management where sensitive data is much more dynamic. With valuable business data not being managed or controlled by your company, there will always be concerns around who has access, how safe is it, whether or not the vendor looks at the data or metadata, and whether or not the software is patched or vulnerable to attacks.</p>
+
+
+
+<p>Adjacent to security is also the challenge of meeting regulatory requirements like GDPR. In the cloud on third-party servers, can you guarantee the same levels of security and quality as your own on your own infrastructure?</p>
+
+
+
+<figure class="wp-block-image"><img src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure15-1048x711.png" alt="Serverless Survey figure 15" class="wp-image-9817" srcset="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure15-1048x711.png 1048w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure15-300x204.png 300w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure15-768x521.png 768w, https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/10/Figure15.png 1400w" sizes="(max-width: 1048px) 100vw, 1048px" /><figcaption>Figure 15. When survey respondents expect their companies to implement serverless.</figcaption></figure>
+
+
+
+<p>The high rate of survey participation shows the keen interest technologists have in the nascent, fast-moving ecosystem of serverless options, regardless of their own organization’s serverless plans. That respondents are paying close attention to serverless reflects a software architecture “best practice:” the need to understand every approach, even those that don’t apply.</p>
+
+
+
+<h2>Concluding thoughts</h2>
+
+
+
+<p>The survey shows a cautious but curious world-wide cohort of engineers, tech leads, architects, and others from a variety of industries interested enough in serverless to respond to the survey. For the 40% who have taken the plunge into serverless adoption, we see that time and exposure bring success. And, those with the most serverless experience see that the promise of decreased costs, automatic scaling, and improved developer productivity holds as the top serverless benefits.</p>
+
+
+
+<p>Yet significant concerns exist, including training/upskilling existing staff, vendor lock-in, and the difficulties of integration and testing. Other factors blocking an embrace of serverless include concerns about security and managing this new type of infrastructure. And survey results show that these concerns do not go away even after adoption. It just seems that adopters have weighed the issues and determined the benefits of serverless adoption more than merit tolerating the drawbacks.</p>
+
+
+
+<p>Based on the survey, we expect the demand for serverless to grow in the near term as another worthwhile infrastructure option for many organizations. With no ties to specific technologies or programming languages, serverless can work with a wide range of tasks, and getting started has gotten easier over time.</p>
+
+
+<aside data-type="sidebar">
+<div id="_ftn1">
+<p><a href="#F1"><sup>[1]</sup></a> The serverless adoption survey ran in June 2019.</p>
+</div>
+</aside>]]></content:encoded>
+							<wfw:commentRss>https://www.oreilly.com/radar/oreilly-serverless-survey-2019-concerns-what-works-and-what-to-expect/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>Highlights from the O&#8217;Reilly Software Architecture Conference in Berlin 2019</title>
+		<link>https://www.oreilly.com/radar/highlights-from-software-architecture-berlin-2019/</link>
+				<comments>https://www.oreilly.com/radar/highlights-from-software-architecture-berlin-2019/#respond</comments>
+				<pubDate>Thu, 07 Nov 2019 20:10:44 +0000</pubDate>
+		<dc:creator><![CDATA[Mac Slocum]]></dc:creator>
+				<category><![CDATA[Next Architecture]]></category>
+		<category><![CDATA[Signals]]></category>
+		<category><![CDATA[Software Architecture Berlin 2019]]></category>
+
+		<guid isPermaLink="false">https://www.oreilly.com/radar/?p=10569</guid>
+				<description><![CDATA[Experts from across the software architecture world came together in Berlin for the O&#8217;Reilly Software Architecture Conference. Below you&#8217;ll find links to highlights from the event. Cognitive biases in the architect&#8217;s life Birgitta Boeckeler covers some of the cognitive biases that can trip up architects. Watch &#8220;Cognitive biases in the architect&#8217;s life&#8220; The three-headed dog: [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>Experts from across the software architecture world came together in Berlin for the <a href="https://conferences.oreilly.com/software-architecture/sa-eu">O&#8217;Reilly Software Architecture Conference</a>. Below you&#8217;ll find links to highlights from the event.</p>
+<h2>Cognitive biases in the architect&#8217;s life</h2>
+<p>Birgitta Boeckeler covers some of the cognitive biases that can trip up architects.</p>
+<ul>
+<li>Watch &#8220;<a href="https://www.oreilly.com/radar/cognitive-biases-in-the-architects-life">Cognitive biases in the architect&#8217;s life</a>&#8220;</li>
+</ul>
+<h2>The three-headed dog: Architecture, process, structure</h2>
+<p>Allen Holub shows you how architecture, process, and structure interact, and how to fix misalignment that’s sucking the life out of your productivity.</p>
+<ul>
+<li>Watch &#8220;<a href="https://www.oreilly.com/radar/the-three-headed-dog-architecture-process-structure">The three-headed dog: Architecture, process, structure</a>&#8220;</li>
+</ul>
+<h2>Modern machine learning architectures: Data and hardware and platform, oh my</h2>
+<p>Brian Sletten takes a deep dive into the intersection of data, models, hardware, language, architecture, and machine learning systems.</p>
+<ul>
+<li>Watch &#8220;<a href="https://www.oreilly.com/radar/modern-machine-learning-architectures">Modern machine learning architectures: Data and hardware and platform, oh my</a>&#8220;</li>
+</ul>
+<h2>From the trenches: Patrick Kua</h2>
+<p>Neal Ford interviews Patrick Kua about his career path and his work as an architect.</p>
+<ul>
+<li>Watch &#8220;<a href="https://www.oreilly.com/radar/from-the-trenches-patrick-kua">From the trenches: Patrick Kua</a>&#8220;</li>
+</ul>
+<h2>The new norms of cloud native</h2>
+<p>Cheryl Hung discusses the state of cloud native tools and communities.</p>
+<ul>
+<li>Watch &#8220;<a href="https://www.oreilly.com/radar/the-new-norms-of-cloud-native">The new norms of cloud native</a>&#8220;</li>
+</ul>
+<div class="hidden">
+<!--unsigned--></p>
+<h2>Next data platform architecture: Distributed Data Mesh</h2>
+<p>Zhamak Dehghani introduces data mesh, the next-generation data platform that draws from modern distributed architecture.</p>
+<ul>
+<li>Watch &#8220;<a href="https://www.oreilly.com/radar/next-data-platform-architecture-distributed-data-mesh">Next data platform architecture: Distributed Data Mesh</a>&#8220;</li>
+</ul>
+</div>
+]]></content:encoded>
+							<wfw:commentRss>https://www.oreilly.com/radar/highlights-from-software-architecture-berlin-2019/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>Highlights from the O&#8217;Reilly Velocity Conference in Berlin 2019</title>
+		<link>https://www.oreilly.com/radar/highlights-from-velocity-berlin-2019/</link>
+				<comments>https://www.oreilly.com/radar/highlights-from-velocity-berlin-2019/#respond</comments>
+				<pubDate>Thu, 07 Nov 2019 20:09:07 +0000</pubDate>
+		<dc:creator><![CDATA[Mac Slocum]]></dc:creator>
+				<category><![CDATA[Next Architecture]]></category>
+		<category><![CDATA[Signals]]></category>
+		<category><![CDATA[Velocity Conference Berlin 2019]]></category>
+
+		<guid isPermaLink="false">https://www.oreilly.com/radar/?p=10577</guid>
+				<description><![CDATA[People from across the cloud native and distributed systems worlds came together in Berlin for the O&#8217;Reilly Velocity Conference. Below you&#8217;ll find links to highlights from the event. My love letter to computer science is very short and I also forgot to mail it James Mickens shares his concerns and frustrations with today&#8217;s technology. Watch [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>People from across the cloud native and distributed systems worlds came together in Berlin for the <a href="https://conferences.oreilly.com/velocity/vl-eu">O&#8217;Reilly Velocity Conference</a>. Below you&#8217;ll find links to highlights from the event.</p>
+<h2>My love letter to computer science is very short and I also forgot to mail it</h2>
+<p>James Mickens shares his concerns and frustrations with today&#8217;s technology.</p>
+<ul>
+<li>Watch &#8220;<a href="https://www.oreilly.com/radar/my-love-letter-to-computer-science-is-very-short">My love letter to computer science is very short and I also forgot to mail ity</a>&#8220;</li>
+</ul>
+<h2>Everything is a little bit broken; or, The illusion of control</h2>
+<p>Heidi Waterhouse outlines ways to handle uncertainty by adding in error budgets, layered access, and other accommodations for failure.</p>
+<ul>
+<li>Watch &#8220;<a href="https://www.oreilly.com/radar/everything-is-a-little-bit-broken">Everything is a little bit broken; or, The illusion of control</a>&#8220;</li>
+</ul>
+<h2>Observability: Understanding production through your customers&#8217; eyes</h2>
+<p>Christine Yen says observability isn’t just for ops folks, but it’s not only about engineering roles, either.</p>
+<ul>
+<li>Watch &#8220;<a href="https://www.oreilly.com/radar/observability-understanding-production-through-your-customers-eyes">Observability: Understanding production through your customers&#8217; eyes</a>&#8220;</li>
+</ul>
+<h2>Secure reliable systems</h2>
+<p>Ana Oprea provides insights and strategies for baking security into your systems.</p>
+<ul>
+<li>Watch &#8220;<a href="https://www.oreilly.com/radar/secure-reliable-systems-velocity-eu-19">Secure reliable systems</a>&#8220;</li>
+</ul>
+<h2>How to deploy infrastructure in just 13.8 billion years</h2>
+<p>Ingrid Burrington looks at how reframing the time scales of computation can change the way your build infrastructure.</p>
+<ul>
+<li>Watch &#8220;<a href="https://www.oreilly.com/radar/how-to-deploy-infrastructure-in-just-13-point-8-billion-years">How to deploy infrastructure in just 13.8 billion years</a>&#8220;</li>
+</ul>
+<h2>The ultimate guide to complicated systems</h2>
+<p>Jennifer Davis explores how sustainable engineering practices can enable technical and strategic direction.</p>
+<ul>
+<li>Watch &#8220;<a href="https://www.oreilly.com/radar/the-ultimate-guide-to-complicated-systems">The ultimate guide to complicated systems</a>&#8220;</li>
+</ul>
+<h2>5 things Go taught me about open source?</h2>
+<p>Dave Cheney talks about the unexpected things he learned while trying to convince programmers to try Go.</p>
+<ul>
+<li>Watch &#8220;<a href="https://www.oreilly.com/radar/5-things-go-taught-me-about-open-source">5 things Go taught me about open source?</a>&#8220;</li>
+</ul>
+<h2>Building high-performing engineering teams, one pixel at a time</h2>
+<p>Lena Reinhard discusses ways you can make distributed teams strong, deliberate, and productive.</p>
+<ul>
+<li>Watch &#8220;<a href="https://www.oreilly.com/radar/building-high-performing-engineering-teams-one-pixel-at-a-time">Building high-performing engineering teams, one pixel at a time</a>&#8220;</li>
+</ul>
+<h2>Controlled chaos: The inevitable marriage of DevOps and security</h2>
+<p>Kelly Shortridge explains why chaos and resilience engineering represent the future of security programs.</p>
+<ul>
+<li>Watch &#8220;<a href="https://www.oreilly.com/radar/controlled-chaos-the-inevitable-marriage-of-devops-and-security">Controlled chaos: The inevitable marriage of DevOps and security</a>&#8220;</li>
+</ul>
+<div class="hidden">
+<!--unsigned--></p>
+<h2>The power of good abstractions in systems design</h2>
+<p>Lorenzo Saino looks at how good abstractions make it possible to identify and apply solutions to seemingly unrelated problems.</p>
+<ul>
+<li>Watch &#8220;<a href="https://www.oreilly.com/radar/the-power-of-good-abstractions-in-systems-design">The power of good abstractions in systems design</a>&#8220;</li>
+</ul>
+</div>
+]]></content:encoded>
+							<wfw:commentRss>https://www.oreilly.com/radar/highlights-from-velocity-berlin-2019/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>
